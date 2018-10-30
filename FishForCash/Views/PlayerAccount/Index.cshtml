@@ -1,0 +1,431 @@
+﻿@model FishForCash.Domain.Player.PlayerModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (ViewBag.ResetPaswordSuccess != null)
+{
+    <div class="alert alert-success  mt-3" style="display:none" id="passwordreset">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <strong>Success! </strong>
+        <label>@ViewBag.ResetPaswordSuccess</label>
+    </div>
+
+
+}
+<div class="alert alert-success  mt-3" style="display:none" id="success-alert">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    <strong>Success! </strong>
+    <label id="alertmsg"></label>
+    @ViewBag.SuccessMsg
+</div>
+
+<div class="alert alert-danger  mt-3" style="display:none" id="error-alert">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    <strong>Error! </strong>
+    <label id="errormsg"></label>
+    @ViewBag.ErrorMsg
+</div>
+
+
+<section class="content-wrapper main-content clear-fix">
+    <main role="main">
+        <div class="container-fluid">
+            <div class="row "></div>
+            <form asp-action="UpdatePlayer">
+
+                <div class="row mt-5">
+                    <div class="col-sm-3">
+                        <!--left col-->
+                        <input asp-for="PLayerId" type="hidden" />
+                        <div class="text-center">
+                            @if (ViewBag.PlayerImage != null)
+                            {
+                                <img src="@ViewBag.PlayerImage" id="profile-img-tag" class="playerimg" alt="avatar">
+                            }
+                            else
+                            {
+
+                                <img src="~/img/Default.png" id="profile-img-tag" class="playerimg" alt="avatar">
+                            }
+
+                                <div class="position-relative">
+                                    <input class="browser-btn" type="file" id="upload_image" />
+                                    <button type="button" class="btn btn-info btn-block">Select your profile picture</button>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <div class="col-xs-6">
+
+                                <label asp-for="EmailId" class="control-label"></label><br>
+                                @Html.LabelForModel(Model.EmailId, new { @class = "pl ", @id = "emailaddresss" })
+                                <input data-toggle="modal" data-target="#playerupdateEmail" data-whatever="Update email " id="openpopup" type="button" class="btn btn-link" value="Update email address." /><br />
+                                <a asp-action="ResetPlayerPassword" class="btn btn-link" style="margin-left:316px" asp-route-EmailId="@Model.EmailId">Update password.</a>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <label asp-for="ScreenName" class="control-label" readonly></label><br>
+                                @Html.LabelForModel(Model.ScreenName, new { @class = "pl" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <label asp-for="FirstName" class="control-label"></label><br>
+                                @Html.LabelForModel(Model.FirstName, new { @class = "pl" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="col-xs-6">
+                                <label asp-for="LastName" class="control-label"></label><br>
+                                @Html.LabelForModel(Model.LastName, new { @class = "pl" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="col-xs-6">
+                                <label asp-for="PhoneNo" class="control-label"></label>
+                                <input asp-for="PhoneNo" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="col-xs-6">
+                                <label asp-for="Address2" class="control-label"></label>
+                                <input asp-for="Address2" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="col-xs-6">
+                                <label asp-for="City" class="control-label"></label>
+                                <input asp-for="City" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="col-xs-6">
+                                <label asp-for="CountryId" class="control-label"></label>
+                                @Html.DropDownListFor(m => m.CountryId, null, new { @class = "form-control" })
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <label asp-for="StateId" class="control-label"></label>
+                                @Html.DropDownListFor(m => m.StateId,
+                                new SelectList(""),
+                                "",
+                                new { @class = "form-control" })
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <label asp-for="Occupation" class="control-label"></label>
+                                <input asp-for="Occupation" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <label asp-for="AgeGroup" class="control-label"></label>
+
+                                @Html.DropDownListFor(x => x.AgeGroup, new[]{
+                                new SelectListItem(){ Text = "1 - 17 Years" , Value = "1"},
+                                new SelectListItem(){ Text = "18 - 24 Years", Value = "2"},
+                                new SelectListItem(){ Text = "25 - 34 Years", Value = "3"},
+                                new SelectListItem(){ Text = "35 - 49 Years", Value = "4"},
+                                new SelectListItem(){ Text = "Over 50 Years", Value = "5"}
+                                }, "", new {
+                                @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <div class="custom-control custom-checkbox">
+                                    <input asp-for="WatchGamePlay" class="custom-control-input" />
+                                    <label class="custom-control-label" asp-for="WatchGamePlay"> @Html.DisplayNameFor(model => model.WatchGamePlay)</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <div class="custom-control custom-checkbox">
+                                    <input asp-for="GetUpdateByEmail" class="custom-control-input" />
+                                    <label class="custom-control-label" asp-for="GetUpdateByEmail"> @Html.DisplayNameFor(model => model.GetUpdateByEmail)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <br>
+                                <input type="hidden" asp-for="FirstName" />
+                                <input type="hidden" asp-for="LastName" />
+                                <button class="btn btn-block btn-primary " type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save </button>
+                            </div>
+                        </div>
+
+                    </div><!--/tab-pane-->
+                </div><!--/col-9-->
+
+            </form>
+            <!--Upload player im age model-->
+
+            <div class="modal" id="uploadimageModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Upload & Crop Photo</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8 text-center">
+                                    <div id="image_demo" style="width:350px; margin-top:30px"></div>
+                                </div>
+                                <div class="col-md-4" style="padding-top:30px;">
+                                    <br />
+                                    <br />
+                                    <br />
+
+                                </div>
+
+                                <img id="finalimage" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-success crop_image">Crop & Upload Image</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="playerupdateEmail">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Update Email</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label class="col-form-label">Current Email Address</label>
+                                <input type="text" id="OldEmail" disabled class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label">New Email Address</label>
+                                <input id="NewEmail" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="closemodel" class="btn  btn-secondary" data-dismiss="modal">Close</button>
+                            <button class="btn btn-primary " id="updateEmail" type="submit">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</section>
+
+
+@section Scripts{
+    @*<script src="~/ImageCropContent/bootstrap.min.js"></script>*@
+    @*<script src="~/ImageCropContent/croppie.js"></script>*@
+    <script>
+
+        $(document).ready(function () {
+            $("#OldEmail").val($("#emailaddresss").text());
+            var countryId = $('#CountryId').val();
+            var label = $("#StateId").siblings("label");
+            if (countryId == 1)
+                label.text("Region");
+            else
+                label.text("State");
+            var statId=@Model.StateId;
+            BindStateOnLoad(countryId, statId);
+            });
+            $("#openpopup").click(function () {
+            $("#OldEmail").val($("#emailaddresss").text());
+            });
+
+            $image_crop = $('#image_demo').croppie({
+            enableExif: true,
+            viewport: {
+            width: 200,
+            height: 200,
+            type: 'square' //circle
+            },
+            boundary: {
+            width: 300,
+            height: 300
+            }
+            });
+            $('#upload_image').on('change', function () {
+            var reader = new FileReader();
+            reader.onload = function (event) {
+            $image_crop.croppie('bind', {
+            url: event.target.result
+            }).then(function () {
+            console.log('jQuery bind complete');
+            });
+            }
+            reader.readAsDataURL(this.files[0]);
+            $('#uploadimageModal').modal('show');
+            });
+
+            $('.crop_image').click(function (event) {
+            $image_crop.croppie('result', {
+            type: 'canvas',
+            size: 'viewport'
+            }).then(function (response) {
+            $('#profile-img-tag').attr('src', response);
+            $('#uploadimageModal').modal('hide');
+            $.ajax({
+            url: '@Url.Action("SavePlayerimage", "PlayerAccount")',
+            type: "POST",
+            data: { "playerphoto": response, id: $("#PLayerId").val() },
+            success: function (data) {
+            $('#uploadimageModal').modal('hide');
+            $('#uploaded_image').html(data);
+            }
+            });
+            })
+            });
+
+            function BindStateOnLoad(countryId, statId) {
+            $.ajax({
+            url: '/Account/GetStateById',
+            type: "GET",
+            dataType: "JSON",
+            data: { countryId: countryId },
+            success: function (states) {
+            $("#StateId").html(""); // clear before appending new list
+
+            $.each(states, function (i, state) {
+            $("#StateId").append(
+            $('<option></option>').val(state.stateId).html(state.stateName));
+            });
+            $("#StateId").val(statId);
+            }
+            });
+            }
+            $('#CountryId').change(function () {
+            var countryId = $('#CountryId').val();
+            var countryName = $('#CountryId option:selected').html();
+            var label = $("#StateId").siblings("label");
+            if (countryId == 1)
+            label.text("Region");
+            else
+            label.text("State");
+            BindState(countryId, countryName, label.text());
+            })
+            function BindState(countryId, countryName, label) {
+            $("#StateId").empty().append('<option selected="selected" value="0" disabled="disabled">Loading.....</option>');
+            $.ajax({
+            url: '/Account/GetStateById',
+            type: "GET",
+            dataType: "JSON",
+            data: { countryId: countryId },
+            success: function (states) {
+            $("#StateId").html(""); // clear before appending new list
+            $("#StateId").append('<option selected="selected"></option>');
+            $("#StateId").append('<option class="bg-secondary font-weight-bold " style="color:white;" disabled>--' + countryName + " " + label + 's--</option>');
+            $.each(states, function (i, state) {
+            $("#StateId").append(
+            $('<option></option>').val(state.stateId).html(state.stateName));
+            });
+            }
+            });
+            }
+    </script>
+
+    @*Update email address *@
+    <script>
+
+        $("#updateEmail").click(function () {
+            var datajson = {
+                newemail: $("#NewEmail").val(),
+                id: $("#PLayerId").val()
+            }
+            if (!datajson.newemail) {
+                $("#NewEmail").addClass("input-validation-error");
+                return;
+            }
+            else if (!isEmail(datajson.newemail)) {
+                $("#NewEmail").addClass("input-validation-error");
+                return;
+            }
+
+            $.ajax({
+                url: '/PlayerAccount/UpdateEmail',
+                type: "POST",
+                dataType: "JSON",
+                data: datajson,
+                success: function (data) {
+                    if (data == "Ok") {
+                        $("#emailaddresss").text($("#NewEmail").val());
+                        $("#NewEmail").val("");
+                        $("#closemodel").click();
+                        $("#alertmsg").text("Email address updated successfully");
+                        $("#success-alert").fadeTo(2000, 500).slideUp(1000, function () {
+                            $("#success-alert").slideUp(500);
+                        });
+                    }
+
+                    if (data == "error") {
+                        $("#errormsg").text("Email address already exists.");
+                        $("#NewEmail").val("");
+                        $("#closemodel").click();
+                        $("#error-alert").fadeTo(2000, 500).slideUp(1000, function () {
+                            $("#error-alert").slideUp(500);
+                        });
+                    }
+                }
+
+            });
+        });
+
+        function isEmail(email) {
+            var regex = /^([a-zA-Z0-9_.+-])+\@@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return regex.test(email);
+        }
+    </script>
+    @if (ViewBag.ResetPaswordSuccess != null)
+    {
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#passwordreset").fadeTo(2000, 500).slideUp(1000, function () {
+                    $("#passwordreset").slideUp(500);
+                });
+
+            })
+        </script>
+    }
+    @if (ViewBag.SuccessMsg != null)
+    {
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#success-alert").fadeTo(2000, 500).slideUp(1000, function () {
+                    $("#success-alert").slideUp(500);
+                });
+
+            })
+        </script>
+    }
+   
+}

@@ -1,0 +1,44 @@
+F:\CoreTemplate\ModularX\ModularX.Utility\bin\Debug\FishForCash.Utility.dll
+F:\CoreTemplate\ModularX\ModularX.Utility\bin\Debug\FishForCash.Utility.pdb
+F:\CoreTemplate\ModularX\ModularX.Utility\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\CoreTemplate\ModularX\ModularX.Utility\bin\Debug\System.Data.Common.dll
+F:\CoreTemplate\ModularX\ModularX.Utility\obj\Debug\FishForCash.Utility.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\ModularX\ModularX.Utility\obj\Debug\FishForCash.Utility.csproj.CopyComplete
+F:\CoreTemplate\ModularX\ModularX.Utility\obj\Debug\FishForCash.Utility.dll
+F:\CoreTemplate\ModularX\ModularX.Utility\obj\Debug\FishForCash.Utility.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.dll
+F:\CoreTemplate\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Utility\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\CoreTemplate\FishForCash\FishForCash.Utility\bin\Debug\System.Data.Common.dll
+F:\CoreTemplate\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CopyComplete
+F:\CoreTemplate\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.dll
+F:\CoreTemplate\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csprojAssemblyReference.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\bin\Debug\System.Data.Common.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CoreCompileInputs.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CopyComplete
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\bin\Debug\System.Data.Common.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CopyComplete
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Debug\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Debug\System.Data.Common.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csproj.CopyComplete
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Debug\FishForCash.Utility.csprojAssemblyReference.cache

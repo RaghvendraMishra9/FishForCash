@@ -1,0 +1,1067 @@
+﻿@model IEnumerable<FishForCash.Repository.DB.BootyTrade>
+@{
+    ViewData["Title"] = "Trade Booty";
+    var currentTrade = ViewBag.CurrentTrade;
+}
+
+
+<section class="content-wrapper main-content clear-fix">
+
+    <main role="main">
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+
+                <div class="col-12 text-center">
+
+
+                    <h1 class="top-title">Trade Booty</h1>
+
+                    <div class="content-padx">
+                        <div class="row justify-content-center">
+
+                            <div class="col-12  col-xl-7 text-center">
+                                <h3>Current Trades</h3>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        @if (Model.Count() >  0)
+                                        {
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td class="align-middle">
+
+                                                        You want to trade
+                                                    </td>
+                                                    <td class="align-middle">@item.TradeQty</td>
+                                                    <td class="align-middle">
+                                                        <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeBooty))" width="40" />
+                                                    </td>
+                                                    <td class="align-middle bodywhite" align="center" >for</td>
+                                                    <td class="align-middle">@item.TradeForQty</td>
+                                                    <td class="align-middle">
+                                                        <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="40" />
+                                                    </td>
+                                                    <td class="align-middle">
+                                                        <a  asp-action="DeleteTrade" asp-controller="Booty" asp-route-tradebootyid="@item.BootyTradeId" asp-route-tradeqty="@item.TradeQty" asp-route-sellerplayerid="@item.SellerPlayerId" class="btn btn-danger btn-block">Delete Trade</a>
+                                                    </td>
+                                                </tr>
+
+                                            }
+
+
+                                        }
+                                        else
+                                        {
+
+                                            <tr><td class="align-middle">No current trade.</td></tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="col-12 col-xl-5 text-center">
+
+                                <h3>Successful Trades</h3>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle">
+
+                                                23/9/2018
+                                            </td>
+                                            <td class="align-middle">1</td>
+                                            <td class="align-middle">
+                                                <img src="/img/big_f.gif" width="40">
+                                            </td>
+                                            <td class="align-middle" align="center" class="bodywhite">for</td>
+                                            <td class="align-middle">1</td>
+                                            <td class="align-middle">
+                                                <img src="/img/big_l.gif" width="40">
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                Showing last 5 trades. <a href="#" class="yellow">View All</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <h4 class="text-center">
+                        Choose a Booty item and quantity to trade.
+                    </h4>
+
+                    <div class="row justify-content-center">
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="a">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "a"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.a)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.a == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.a">@ViewBag.Booties.a</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="b">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "b"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.b)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.b == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.b">@ViewBag.Booties.b</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="c">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "c"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.c)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.c == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.c">@ViewBag.Booties.c</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="d">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "d"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.d)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.d == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.d">@ViewBag.Booties.d</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="e">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "e"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.e)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.e == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.e">@ViewBag.Booties.e</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="f">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "f"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.f)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.f == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.f">@ViewBag.Booties.f</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="g">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "g"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.g)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.g == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.g">@ViewBag.Booties.g</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="h">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "h"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.h)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.h == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.h">@ViewBag.Booties.h</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="i">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "i"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.i)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.i == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.i">@ViewBag.Booties.i</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="j">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "j"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.j)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.j == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.j">@ViewBag.Booties.j</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="k">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "k"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.k)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.k == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.k">@ViewBag.Booties.k</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="l">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "l"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.l)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.l == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.l">@ViewBag.Booties.l</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="m">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "m"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.m)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.m == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.m">@ViewBag.Booties.m</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="n">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "n"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.n)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.n == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.n">@ViewBag.Booties.n</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="o">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "o"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.o)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.o == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.o">@ViewBag.Booties.o</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="p">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "p"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.p)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.p == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.p">@ViewBag.Booties.p</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="q">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "q"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.q)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.q == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.q">@ViewBag.Booties.q</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col col-sm-2 nopadding">
+                            <div class="booty-tile">
+                                <form asp-action="OfferBooty" asp-controller="Booty" method="post" asp-route-value="r">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "r"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @(ViewBag.Booties == null ? 0 : ViewBag.Booties.r)
+
+                                    </div>
+
+                                    <div class="justify-content-center">
+
+                                    </div>
+                                    @if (ViewBag.Booties == null)
+                                    {
+
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+                                    }
+                                    else if (ViewBag.Booties.r == 0)
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="1">--</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" disabled class="btn btn-warning">
+
+                                    }
+                                    else
+                                    {
+                                        <div class="form-group">
+                                            <select name="tradeqty" class="form-control form-qty col-5">
+                                                <option value="@ViewBag.Booties.r">@ViewBag.Booties.r</option>
+
+                                            </select>
+                                        </div>
+                                        <input type="submit" name="booty" value="Trade" class="btn btn-warning">
+                                    }
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+
+                        <div class="col col-md-12 col-lg-12 text-center">
+                            <div class="content-box text-left">
+
+                                <h3>The Booty Trading Rules.</h3>
+                                <ol class="">
+                                    <li>YOU MAY ONLY HAVE 10 ACTIVE TRADES AT ANY ONE TIME.</li>
+
+                                    <li> Trades unaccepted after 10 days will be automatically cleared.</li>
+
+                                    <li>You may choose as few or as many Booty items to put up for trade. Booty items up for trade will temporarily be removed from your treasure chest.</li>
+
+                                    <li> If someone accepts your trade, your booty will automatically be swapped and a confirmation email will be sent to you.</li>
+
+                                    <li>
+                                        You may delete your trades at any time before they have been accepted by another trader.
+                                    </li>
+                                    <li>
+                                        Once a trade has been accepted it cannot be reversed.
+                                    </li>
+                                </ol>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+</section>
+
+

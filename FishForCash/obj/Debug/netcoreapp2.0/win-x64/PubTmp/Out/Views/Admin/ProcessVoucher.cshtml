@@ -1,0 +1,121 @@
+﻿@model IEnumerable<FishForCash.Domain.PrizeRedeemModel.PrizeRedeemModel>
+@{
+    ViewData["Title"] = "Process Voucher";
+    Layout = "_AdminLayout";
+}
+
+<div class="main-content">
+    <div class="pt-3 pb-2 mb-3 border-bottom " style="float:right">
+        <ul class="nav nav-tabs btn-toolbar mb-2 mb-md-0" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link btn btn-sm btn-outline-dark active " id="Unprocessed-tab" data-toggle="tab" href="#Unprocessed" role="tab" aria-controls="Unprocessed" aria-selected="true">Unprocessed Claims</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-sm btn-outline-dark " id="Processed-tab" data-toggle="tab" href="#Processed" role="tab" aria-controls="Processed" aria-selected="false">Processed Vouchers</a>
+            </li>
+        </ul>
+        @*<div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-dark active">Unprocessed Claims</button>
+                &nbsp;
+                <button class="btn btn-sm btn-outline-dark">Processed Vouchers</button>
+            </div>
+
+        </div>*@
+    </div>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="Unprocessed" role="tabpanel" aria-labelledby="Unprocessed-tab">
+            <h2 class="title-1 m-b-25">
+                Unprocessed Voucher Claims
+
+            </h2>
+            <table class="table table-striped">
+
+                <tr>
+                    <th>Process</th>
+                    <th>
+                        Claim Date
+                    </th>
+                    <th nowrap="">Amount</th>
+                    <th colspan="4" class="text-left">Details </th>
+                    <th>Delete</th>
+                </tr>
+                <tbody>
+                    @foreach (var item in ViewBag.notprocessedmodel)
+                    {
+                        <tr>
+
+                            <td><a asp-action="PrintVoucher" asp-controller="Admin" asp-route-voucherId="@item.PrizeRedeemId" asp-route-Id="@item.PLayerId" class="btn btn-success btn-sm">Print Voucher</a> </td>
+                            <td>@item.DateRedeemdstr</td>
+
+                            <td>
+                                <strong>@item.PrizeValuestr</strong>
+                            </td>
+                            <td nowrap="">
+                                <a href="#"><i class="fas fa-eye"></i> @item.FullName</a>
+                            </td>
+                            <td colspan="2">@item.Address</td>
+
+                            <td> @item.Email</td>
+                            <td>
+
+                                <input type="submit" name="action" value="Trash" class="btn btn-danger btn-sm">
+                            </td>
+
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+
+        <div class="tab-pane fade " id="Processed" role="tabpanel" aria-labelledby="Processed-tab">
+            <h2 class="title-1 m-b-25">
+                Processed Vouchers
+            </h2>
+            <table class="table table-striped">
+
+                <tr>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        Sent
+                    </th>
+                    <th class="">Voucher#</th>
+                    <th nowrap="">Amount</th>
+                    <th colspan="4" class="text-left">Details </th>
+                    <th>Reverse</th>
+                </tr>
+                <tbody>
+                    @foreach (var item in ViewBag.Processedmodel)
+                    {
+                        <tr>
+                            <td>26/09/18</td>
+                            <td>@item.DatePostedstr</td>
+                            <td class=""><strong>@item.PrizeRedeemId</strong></td>
+                            <td>
+                                <strong> @item.PrizeValuestr</strong>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i>  @item.FullName</a>
+                            </td>
+                            <td colspan="2">@item.Address</td>
+                            <td> @item.Email</td>
+                            <td>
+                            
+                                <a asp-action="ReverseVoucher" asp-controller="Admin" asp-route-voucherId="@item.PrizeRedeemId" asp-route-Id="@item.PLayerId" class="btn btn-info btn-sm">Reverse</a>
+                            </td>
+                        </tr>
+                    }
+
+                    </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+

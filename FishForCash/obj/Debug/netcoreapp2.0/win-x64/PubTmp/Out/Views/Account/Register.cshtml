@@ -1,0 +1,182 @@
+﻿@model FishForCash.Web.Models.RegistrationViewModel
+
+@{
+    ViewData["Title"] = "Registration";
+}
+
+
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-6 mx-auto mt-5 py-5 px-5" style="background:#fff; box-shadow: 0px 0px 1px 2px #0000001a;">
+
+            <form asp-action="Register">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <h6 class="text-info">Enter your email address and make up a password.</h6>
+
+                <div class="form-group">
+                    <label asp-for="EmailId" class="control-label"></label>
+                    <input asp-for="EmailId"  class="form-control" />
+                    <span asp-validation-for="EmailId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <h6 class="text-info">Choose a unique name to be known on the site as.</h6>
+                <div class="form-group">
+                    <label asp-for="ScreenName" class="control-label"></label>
+                    <input asp-for="ScreenName" class="form-control" />
+                    <span asp-validation-for="ScreenName" class="text-danger"></span>
+                </div>
+                <h6 class="text-info">Enter your contact details.</h6>
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="PhoneNo" class="control-label"></label>
+                    <input asp-for="PhoneNo"  class="form-control" />
+                    <span asp-validation-for="PhoneNo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address1" class="control-label"></label>
+                    <input asp-for="Address1" class="form-control" />
+                    <span asp-validation-for="Address1" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address2" class="control-label"></label>
+                    <input asp-for="Address2" class="form-control" />
+                    <span asp-validation-for="Address2" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="City" class="control-label"></label>
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CountryId" class="control-label"></label>
+                    @Html.DropDownListFor(m => m.CountryId, (IEnumerable<SelectListItem>)ViewBag.country, "", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.CountryId, "", new { @class = "text-danger" })
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="StateId" class="control-label"></label>
+                    @Html.DropDownListFor(m => m.StateId,
+                    new SelectList(""),
+                    "",
+                     new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.StateId, "", new { @class = "text-danger" })
+
+                </div>
+                <h6 class="text-info">Tell us a little more about yourself.</h6>
+                <div class="form-group">
+                    <label asp-for="Occupation" class="control-label"></label>
+                    <input asp-for="Occupation" class="form-control" />
+                    <span asp-validation-for="Occupation" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AgeGroup" class="control-label"></label>
+
+                    @Html.DropDownListFor(x => x.AgeGroup, new[]{
+                            new SelectListItem(){ Text = "1 - 17 Years" , Value = "1"},
+                            new SelectListItem(){ Text = "18 - 24 Years", Value = "2"},
+                            new SelectListItem(){ Text = "25 - 34 Years", Value = "3"},
+                            new SelectListItem(){ Text = "35 - 49 Years", Value = "4"},
+                            new SelectListItem(){ Text = "Over 50 Years", Value = "5"}
+                            }, "", new {
+                                @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.AgeGroup, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                        <input asp-for="GetUpdateByEmail" class="custom-control-input" />
+                        <label class="custom-control-label" asp-for="GetUpdateByEmail"> @Html.DisplayNameFor(model => model.GetUpdateByEmail)</label>
+                    </div>
+                </div>
+                <h6 class="text-info">Please read and agree to the terms and conditions.</h6>
+                <div class="form-group">
+                    <textarea rows="8" class="form-control" aria-label="With textarea" readonly>
+Fish for Cash is a consumer driven promotion, only game codes on purchases from retail outlets are eligible for prizes.
+The exception to the above are game codes issued directly to players from authorized Fish for Cash agents.
+
+Persons in any of the following categories are not eligible to participate in Butch Pet Foods Ltd & Co "Fish for Cash": Employees, agents and retailers, it's suppliers or other companies associated with this promotion, and the immediate families or members of the household of each person in any of the preceding categories. This ineligibility applies if at any time during the competition they fall into one of the above categories.
+
+The promoter is Butch Pet Foods Ltd & Co.
+
+The promoter's decision on all matters pertaining to this Game is final and no correspondence will be entered into.
+
+For safety and legal reasons, to be eligible to participate and receive a prize participants under the age of 18 years may be required to have the consent of their parent or guardian and in the absence of that consent the Promoter reserves the right to substitute and alternative prize of equivalent value at its discretion.
+
+No responsibility is taken by the promoter for prize claims lost, late or misdirected mail or claims not properly completed. Prize claims will be subject to security and verification checks at the absolute discretion of the promoter.    
+           </textarea>
+                </div>
+
+                <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                        <input asp-for="TermsAccepted" class="custom-control-input" />
+                        <label class="custom-control-label" asp-for="TermsAccepted"> I have read and understand the Terms and Conditions. </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" id="submit" value="Register To Play" disabled="disabled" class="btn btn-primary btn-block" />
+                </div>
+            </form>
+        </div>
+    </div> 
+    </div>
+
+
+    @section Scripts {
+        <script>
+            $('#CountryId').change(function () {
+                var countryId = $('#CountryId').val();
+                var countryName = $('#CountryId option:selected').html();
+                var label = $("#StateId").siblings("label");
+                if (countryId == 1)
+                    label.text("Region");
+                else
+                    label.text("State");
+                BindState(countryId, countryName, label.text());
+            })
+
+            function BindState(countryId, countryName, label) {
+                $("#StateId").empty().append('<option selected="selected" value="0" disabled = "disabled">Loading.....</option>');
+                $.ajax({
+                    url: '/Account/GetStateById',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { countryId: countryId },
+                    success: function (states) {
+                        $("#StateId").html(""); // clear before appending new list
+                        $("#StateId").append('<option selected="selected"></option>');
+                        $("#StateId").append('<option  class="bg-secondary font-weight-bold " style="color:white;" disabled>--' + countryName + " " + label + 's--</option>');
+                        $.each(states, function (i, state) {
+                            $("#StateId").append(
+                                $('<option></option>').val(state.stateId).html(state.stateName));
+                        });
+                    }
+                });
+            }
+
+            $(function () {
+                $('#TermsAccepted').click(function () {
+                    if ($(this).is(':checked')) {
+                        $("#submit").prop('disabled', false);
+                    } else {
+                        $("#submit").prop('disabled', true);
+                    }
+                });
+            });
+
+        </script>
+    }

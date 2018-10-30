@@ -1,0 +1,63 @@
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.deps.json
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.runtimeconfig.json
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.runtimeconfig.dev.json
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.dll
+F:\Clients\peter\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csprojResolveAssemblyReference.cache
+F:\Clients\peter\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csproj.CoreCompileInputs.cache
+F:\Clients\peter\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.AssemblyInfoInputs.cache
+F:\Clients\peter\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.AssemblyInfo.cs
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.pdb
+F:\Clients\peter\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.dll
+F:\Clients\peter\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.pdb
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.dll
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Domain.dll
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.dll
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Utility.dll
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.pdb
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Domain.pdb
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.pdb
+F:\Clients\peter\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Utility.pdb
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.deps.json
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.runtimeconfig.json
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.runtimeconfig.dev.json
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.dll
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.pdb
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.dll
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Domain.dll
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.dll
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Utility.dll
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.pdb
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.dll.config
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Domain.pdb
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.pdb
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.dll.config
+F:\Clients\PETER NEW\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Utility.pdb
+F:\Clients\PETER NEW\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csproj.CoreCompileInputs.cache
+F:\Clients\PETER NEW\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.AssemblyInfoInputs.cache
+F:\Clients\PETER NEW\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.AssemblyInfo.cs
+F:\Clients\PETER NEW\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csproj.CopyComplete
+F:\Clients\PETER NEW\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.dll
+F:\Clients\PETER NEW\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.pdb
+F:\Clients\PETER NEW\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csprojAssemblyReference.cache
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.deps.json
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.runtimeconfig.json
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.runtimeconfig.dev.json
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Domain.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Utility.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Business.dll.config
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Domain.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Repository.dll.config
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\ModularX.Utility.pdb
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csprojAssemblyReference.cache
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.AssemblyInfoInputs.cache
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.AssemblyInfo.cs
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.csproj.CopyComplete
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.dll
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\ModularX.pdb

@@ -1,0 +1,116 @@
+﻿@model IEnumerable<FishForCash.Domain.WinningDetailModel>
+@{
+    ViewData["Title"] = "Index";
+}
+<section class="content-wrapper main-content clear-fix">
+
+    <main role="main">
+        <div class="content-pad">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+
+                    <div class="col col-md-12 col-lg-12 text-center">
+                        <h1 class="top-title">Get Booty</h1>
+
+                        <div class="col-12 col-md-12">
+                            @if (ViewBag.BootyNo != null)
+                            {
+                                <h1 class="top-title">Congratulations! You have got new Booty!</h1>
+
+                                <h3 class="yellow">One <img width="40px" src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", ViewBag.Icon))" /> has been added to your treasure chest </h3>
+                                <h4>Click on the other chests to see what you missed!</h4>
+                            }
+                            else
+                            {
+                                <h3 class="yellow">You have @ViewBag.NotRewardedBooty  booty items to collect. </h3>
+                                <h4> Activate your treasure chests by clicking a "Get Booty" button below.</h4>
+                            }
+
+                        </div>
+
+                        <div class="row">
+                            @if (ViewBag.RandomBooty == null)
+                            {
+                                @for (int i = 1; i < 6; i++)
+                                {
+                                    <div class="col col-sm-2 nopadding">
+                                        <div class="circle-tile">
+                                            <div class="circle-inner">
+
+                                                <img src="~/Booty_Chest_Icons/chest-closed.png" class="img-fluid  rounded-circle">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                @foreach (var item in ViewBag.RandomBooty)
+                                {
+                                    <div class="col col-sm-2 nopadding">
+                                        <div class="circle-tile">
+                                            <div class="circle-inner">
+                                                @if (ViewBag.BootyNo != null && ViewBag.BootyNo == item.Key)
+                                                {
+
+                                                    <img src="@Url.Content(String.Format("~/Booty_Chest_Icons/open-{0}.gif", item.Value))" class="img-fluid  rounded-circle">
+                                                }
+                                                else
+                                                {
+                                                    <div>
+                                                        <img src="~/Booty_Chest_Icons/chest-closed.png" onclick="OnShow('@item.Value');" class="img-fluid  rounded-circle @item.Value">
+                                                        <img src="@Url.Content(String.Format("~/Booty_Chest_Icons/open-{0}.gif", item.Value))" style="display:none" class="img-fluid  rounded-circle">
+                                                    </div>
+
+                                                }
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                }}
+                        </div>
+
+
+                        <div class="row">
+                            <table border="0" cellspacing="0" class="table table-striped ">
+
+                                <tbody>
+                                    <tr>
+                                        <td class="font-weight-bold"> Played </td>
+                                        <td class="font-weight-bold"> Gamecode </td>
+                                        <td>  </td>
+                                    </tr>
+                                    @if (Model != null)
+                                    {
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td> @item.Date </td>
+                                                <td> @item.GameCodeNo </td>
+
+                                                <td align="center">
+                                                    <a asp-action="GetBooty" asp-controller="Booty" asp-route-gamecode="@item.GameCodeNo " class="btn btn-warning">Get Booty</a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</section>
+@section Scripts{
+    <script>
+        function OnShow(a) {
+            var clasfs ="."+a;
+            $(clasfs).hide().next().show();
+        }
+    </script>
+    
+}

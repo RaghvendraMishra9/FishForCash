@@ -1,0 +1,15 @@
+F:\Clients\peter\ModularX\ModularX.Utility\bin\Debug\ModularX.Utility.dll
+F:\Clients\peter\ModularX\ModularX.Utility\bin\Debug\ModularX.Utility.pdb
+F:\Clients\peter\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.csprojResolveAssemblyReference.cache
+F:\Clients\peter\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.csproj.CoreCompileInputs.cache
+F:\Clients\peter\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.dll
+F:\Clients\peter\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\bin\Debug\ModularX.Utility.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\bin\Debug\ModularX.Utility.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\bin\Debug\System.Data.Common.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.csproj.CoreCompileInputs.cache
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.csproj.CopyComplete
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Utility\obj\Debug\ModularX.Utility.csprojAssemblyReference.cache

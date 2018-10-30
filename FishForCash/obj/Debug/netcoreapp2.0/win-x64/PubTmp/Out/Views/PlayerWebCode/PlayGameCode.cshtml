@@ -1,0 +1,82 @@
+﻿@model FishForCash.Domain.PlayedCodeModel
+@{
+
+    ViewData["Title"] = "ManualPlayGomeCode";
+}
+@if (ViewBag.GAmecodenotExist == "ShowErrorAfterFiveAttempt")
+{
+    <div class="row justify-content-center " style=" margin-top: 27px;">
+        <div class="col col-md-12 col-lg-10 text-center">
+            <h2>Play Fish For Cash</h2>
+            <div class="alert alert-warning">
+                <br><h3>You have attempted to enter an incorrect gamecode 5 times. </h3>
+                <h4>After 10 failed attempts your account will be locked.</h4>
+                <p> If you have smudged or illigible gamecode please submit here for replacement.</p>
+                <a href="" class="btn btn-warning  btn-lg">Get Replacement GameCode</a>
+                <p> If you are having any problem regarding your code please open a support ticket.</p>
+                <a href="" class="btn btn-warning  btn-lg">Open Customer Support Ticket</a>
+            </div>
+        </div>
+    </div>
+}
+else if (ViewBag.GAmecodenotExist == "ShowErrorAfter10Attempt")
+{
+    <div class="row justify-content-center mt-10" style=" margin-top: 27px;">
+        <div class="col col-md-12 col-lg-10 text-center">
+            <div class="alert alert-danger">
+                <br><h3>You have attempted to enter an incorrect gamecode  10 times. </h3>
+                <h4> Your account has  been locked.</h4>
+                <p> Please open a support ticket to unlock your account.</p>
+                <a href="" class="btn btn-warning  btn-lg">Open Support Ticket</a>
+            </div>
+        </div>
+    </div>
+
+}
+else if (ViewBag.GAmecodenotExist == "Not Exist")
+{
+    <div class="alert alert-danger text-center" style="margin-top: 27px;">
+        <div class="font-weight-bold">
+            <br><h4>GAMECODE Doesn't Exist!</h4>
+
+            <p>
+                You've tried wrong gamecode
+            </p>
+            <h3>@Model.GameCode</h3>
+        </div>
+    </div>
+
+}
+else
+{
+    <div class="alert alert-danger text-center" style="margin-top:27px;">
+        <div class="font-weight-bold">
+            <br><h4>GAMECODE ALREADY PLAYED!</h4>
+
+            <p>
+                You've already played gamecode
+            </p>
+            <h3>@Model.GameCode</h3>
+        </div>
+
+        @if (ViewBag.SamePlayerPlayed != null && ViewBag.SamePlayerPlayed)
+        {
+            <table style="width:100%">
+                <tbody>
+                    <tr>
+                        <td><strong>Played</strong></td>
+                        <td><strong>Name</strong></td>
+                        <td><strong>Result</strong></td>
+                    </tr>
+                    <tr>
+                        <td>@Model.Date</td>
+                        <td>@Model.FullName</td>
+                        <td>@Model.Result</td>
+                    </tr>
+                </tbody>
+            </table>
+        }
+
+    </div>
+
+}

@@ -1,0 +1,175 @@
+﻿@model IEnumerable<FishForCash.Domain.WebCode.WebCodeModel>
+
+@{
+    ViewData["Title"] = "PlayedGameCode";
+    var playerId = Convert.ToInt32(User.Claims.ToArray()[2].Value);
+    string result = string.Empty;
+
+}
+
+<section class="content-wrapper main-content clear-fix">
+    <main role="main">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col col-md-12 col-lg-10 text-center">
+                    <h1 class="top-title">Play Fish For Cash</h1>
+                    <div class="content-pad">
+
+                        <!-- Playing Gamecode-->
+                        <div>
+                            <div class="info-box text-center">
+                                <h1><span class="yellow">Playing:</span><span class="gamecode">@ViewBag.PlayingGameCode</span></h1>
+                            </div>
+                            @if (ViewBag.WatchGamePlay)
+                            {
+                                <div class="row align-self-center">
+                                    <div class="flash-embed align-self-center">
+                                        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="603" height="379">
+                                            <param name="allowScriptAccess" value="sameDomain">
+                                            <param name="myVariable" value="1">
+                                            <PARAM NAME="SCALE" VALUE="default">
+                                            <param name="FlashVars" value="movie=2">
+                                            <param name="movie" value="http://fishforcash.co.nz/plays/5e.swf?&amp;play-true">
+                                            <param name="quality" value="high">
+                                            <embed src="http://fishforcash.co.nz/plays/5e.swf?&amp;play-true" width="1200" height="379" SCALE="default" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+                                        </object>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="result-box winning">
+
+                                    <div id="notawin" style="display:none" class="result-box losing">
+
+                                        <h1>Sorry</h1>
+                                        <h1 class="yellow">That was not a winning play</h1>
+                                        <h3>But you still have more chances to win</h3>
+                                        <input type="submit" name="" value="Collect your Booty here" class="btn btn-lg btn-warning">
+                                    </div>
+
+
+                                    <div id="freePlay" style="display:none" class="result-box losing">
+                                        <h1>Congratulations!</h1>
+                                        <h3>You have won</h3>
+                                        <h1 class="yellow">** 1 x Freeplay **</h1>
+                                        <h5>A new gamecode has been added to your account.</h5>
+                                    </div>
+
+                                    <div id="otherResult" style="display:none" class="result-box losing">
+                                        <h1>Congratulations!</h1>
+                                        <h3>You have won</h3>
+                                        <h1 class="yellow">** <label id="otherrwinresult"></label> **</h1>
+                                        <h5>Keep playing or check your account to<a asp-action="Index" asp-controller="Claim" class="yellow"> make a claim.</a></h5>
+                                    </div>
+                                </div>
+
+                            }
+                        </div>
+                        @if (ViewBag.NotUsedGameCodes == 0)
+                        {
+
+                            <h3>You don't have any free gamecodes to play</h3>
+                            <h4>You can get more gamecodes by swapping booty,</h4>
+                            <h4>donating to the SPCA or purchasing more products.</h4>
+                        }
+                        else
+                        {
+                            <h3 class="text-warning">You have @ViewBag.NotUsedGameCodes FREE gamecodes to play.</h3>
+
+                        }
+
+                        <table border="0" class="table">
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.AssignDateIssuedstr</td>
+                                        <td>@item.GameCode</td>
+                                        <td>@item.RecordSourceStr</td>
+                                        <td><a asp-action="PlayedGameCode" asp-controller="PlayerWebCode" asp-route-gamecode=@item.GameCode asp-route-playerId=@item.PLayerId class="btn btn-warning">PLAY</a></td>
+                                    </tr>
+
+                                }
+
+                            </tbody>
+                        </table>
+
+                        <input type="hidden" value="" id="PlayerId" />
+                        <h3 class="yellow">You have new Booty to collect!</h3>
+                        <a asp-action="Index" asp-controller="Booty" class="btn btn-lg btn-warning NotRewardedBooty">Collect new Booty (@ViewBag.NotRewardedBootyCount)</a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+@section Scripts {
+    <script>
+
+
+        $(document).ready(function () {
+            $("#notawin").css("display", "none");
+            $("#freePlay").css("display", "none");
+            $("#otherResult").css("display", "none");
+            setTimeout(function () { ShowRandomResult() }, 1000);
+          
+           
+        });
+        function BindLayout() {
+            $.ajax({
+                url: '/PlayerAccount/BindLayout',
+                type: 'GET',
+                dataType: "JSON",
+                success: function (response) {
+                    $("#NotUsedGameCode").text(response.notUsedGameCodes);
+                    $("#NotRewardedBooty").text(response.bootyCount);
+                    $(".NotRewardedBooty").text("Collect new Booty (" +response.bootyCount + ")");
+                }
+            });
+        }
+        function SaveWinningDetail(response) {
+            datajson = {
+                gamecode:@ViewBag.PlayingGameCode,
+                playerid: @playerId,
+                result: response
+            }
+            $.ajax({
+                url: '/PlayerWebCode/SaveWinningResult',
+                type: 'POST',
+                dataType: "JSON",
+                data: datajson,
+                success: function (response) {  
+                    if (response != null) {
+                        if (response == "Not a Winning Prize")
+                            $("#notawin").css("display", "block");
+                       else if (response == "Free Play")
+                            $("#freePlay").css("display", "block");
+                        else {
+                            $("#otherrwinresult").text(response);
+                            $("#otherResult").css("display", "block");
+                        }
+                        BindLayout(); 
+
+                    }
+
+                }
+            });
+        }
+
+        function ShowRandomResult() {
+            $.ajax({
+                url: '/PlayerWebCode/RandomSelectResult',
+                type: 'GET',
+                success: function (response) {                 
+                    if (response != null) {
+                        SaveWinningDetail(response);
+                    }
+
+                }
+            });
+        }
+    </script>
+}

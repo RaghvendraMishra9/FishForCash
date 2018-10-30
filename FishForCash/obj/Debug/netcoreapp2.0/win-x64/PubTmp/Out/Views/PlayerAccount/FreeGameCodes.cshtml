@@ -1,0 +1,160 @@
+﻿@model IEnumerable<FishForCash.Domain.WebCode.WebCodeModel>
+
+@{
+    ViewData["Title"] = "FreeGameCodes";
+    var playedCodeModel = ViewBag.alreadyplayedList;
+}
+
+
+<section class="content-wrapper main-content clear-fix">
+    <main role="main">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col col-md-12 col-lg-10 text-center">
+                    <h2 class="top-title">Play Fish For Cash</h2>
+                    @if (ViewBag.GAmecodenotExist == "ShowErrorAfterFiveAttempt")
+                    {
+                        <div class="row justify-content-center " style=" margin-top: 27px;">
+                            <div class="col col-md-12 col-lg-10 text-center">
+                               
+                                <div class="alert alert-warning">
+                                    <br><h3>You have attempted to enter an incorrect gamecode 5 times. </h3>
+                                    <h4>After 10 failed attempts your account will be locked.</h4>
+                                    <p> If you have a smudged or illegible gamecode please submit it here for a replacement.</p>
+                                    <a href="" class="btn btn-warning  btn-lg">Get Replacement GameCode</a>
+                                    <p> If you are having any other problems regarding your code please open a support ticket.</p>
+                                    <a href="" class="btn btn-warning  btn-lg">Open Customer Support Ticket</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    else if (ViewBag.GAmecodenotExist == "ShowErrorAfter10Attempt")
+                    {
+                        <div class="row justify-content-center mt-10" style=" margin-top: 27px;">
+                            <div class="col col-md-12 col-lg-10 text-center">
+                                <div class="alert alert-danger">
+                                    <br><h3>You have attempted to enter an incorrect gamecode  10 times. </h3>
+                                    <h4> Your account has  been locked.</h4>
+                                    <p> Please open a support ticket to unlock your account.</p>
+                                    <a href="" class="btn btn-warning  btn-lg">Open Support Ticket</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                    else if (ViewBag.GAmecodenotExist == "Not Exist")
+                    {
+                        <div class="alert alert-danger text-center" style="margin-top: 27px;">
+                            <div class="font-weight-bold">
+                                <br><h4>Sorry that is an invalid Gamecode!</h4>
+
+                                <p>
+                                    Please check the gamecode again and correct any errors.
+                                </p>
+                                <p>
+                                    If you're having trouble reading your gamecode you can <a  asp-controller="SmudgedCode" asp-action="Index">request a replacement here.</a>
+                                </p>
+                                <h3> @ViewBag.GameCode </h3>
+                            </div>
+                        </div>
+
+                    }
+
+                    <!--If played by same player -->
+                    @if (playedCodeModel != null)
+                    {
+                        <div class="alert alert-danger text-center" style="margin-top:27px;">
+                            <div class="font-weight-bold">
+                                <br><h4>GAMECODE ALREADY PLAYED!</h4>
+                                <p>
+                                    You've already played gamecode
+                                </p>
+                                <h3>@playedCodeModel.GameCode</h3>
+                            </div>
+                            <table style="width:100%" class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Played</strong></td>
+                                        <td><strong>Name</strong></td>
+                                        <td><strong>Result</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>@playedCodeModel.Date</td>
+                                        <td>@playedCodeModel.FullName</td>
+                                        <td>@playedCodeModel.Result</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    }
+                    <!--  //If played by Other player created record in Already Played DB table. -->
+                    @if (ViewBag.alreadyPlayedCode != null)
+                    {
+
+                        <div class="alert alert-danger text-center font-weight-bold">
+
+                            <br><h4>GAMECODE HAS ALREADY BEEN PLAYED!</h4>
+
+                            <h3>@ViewBag.alreadyPlayed</h3>
+
+                            <p>
+                                has already been played by another person.
+                            </p>
+                            <p>
+                                An email has been sent to Customer Services Team  to investigate further. If your game code was played by another player, you may be sent a replacement game code.
+                            </p>
+                        </div>
+
+                    }
+
+
+                    <div class="content-pad">
+
+                        <!-- No Gamecode Playing Yet-->
+                        <div>
+                            <div class="row align-self-center">
+                                <div class="flash-embed align-self-center">
+                                    <h2 class="align-self-center">
+                                        <p>&nbsp;</p>
+                                        Waiting for gamecode...
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        @if (ViewBag.NotUsedGameCodes == 0)
+                        {
+
+                            <h3 >You don't have any free gamecodes to play</h3>
+                            <h4 >You can get more gamecodes by swapping booty,</h4>
+                            <h4 >donating to the SPCA or purchasing more products.</h4>
+                        }
+                        else
+                        {
+                            <h3 class="text-warning">You have @ViewBag.NotUsedGameCodes FREE gamecodes to play.</h3>
+
+                        }
+
+                        <table border="0" class="table">
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.AssignDateIssuedstr</td>
+                                        <td>@item.GameCode</td>
+                                        <td>@item.RecordSourceStr</td>
+                                        <td><a asp-action="PlayedGameCode" asp-controller="PlayerWebCode" asp-route-gamecode=@item.GameCode class="btn btn-warning">PLAY</a></td>
+                                    </tr>
+
+                                }
+
+                            </tbody>
+                        </table>
+                        @*<h3 class="yellow">You have new Booty to collect!</h3>
+            <input type="submit" name="" value="Collect new Booty (4)" class="btn btn-lg btn-warning">*@
+                    </div>
+                </div>
+                </div> 
+            </div>
+    </main>
+</section>

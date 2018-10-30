@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FishForCash.Web", "FishForCash\FishForCash.Web.csproj", "{20B71E8D-3499-41F2-A67C-6514493DBA17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FD8D502-518E-490B-9677-E6FA66DE8489} = {1FD8D502-518E-490B-9677-E6FA66DE8489}
+		{3CC53D1C-87AB-42B0-A65A-67B06AC19739} = {3CC53D1C-87AB-42B0-A65A-67B06AC19739}
+		{6598D1C2-6560-40B3-8A97-7FCB31212A87} = {6598D1C2-6560-40B3-8A97-7FCB31212A87}
+		{C7FB35F0-B961-492A-90F4-A1896F431EB2} = {C7FB35F0-B961-492A-90F4-A1896F431EB2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishForCash.Repository", "FishForCash.Repository\FishForCash.Repository.csproj", "{3CC53D1C-87AB-42B0-A65A-67B06AC19739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishForCash.Business", "FishForCash.Business\FishForCash.Business.csproj", "{6598D1C2-6560-40B3-8A97-7FCB31212A87}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FD8D502-518E-490B-9677-E6FA66DE8489} = {1FD8D502-518E-490B-9677-E6FA66DE8489}
+		{3CC53D1C-87AB-42B0-A65A-67B06AC19739} = {3CC53D1C-87AB-42B0-A65A-67B06AC19739}
+		{C7FB35F0-B961-492A-90F4-A1896F431EB2} = {C7FB35F0-B961-492A-90F4-A1896F431EB2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishForCash.Domain", "FishForCash.Domain\FishForCash.Domain.csproj", "{1FD8D502-518E-490B-9677-E6FA66DE8489}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7FB35F0-B961-492A-90F4-A1896F431EB2} = {C7FB35F0-B961-492A-90F4-A1896F431EB2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishForCash.Utility", "FishForCash.Utility\FishForCash.Utility.csproj", "{C7FB35F0-B961-492A-90F4-A1896F431EB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B71E8D-3499-41F2-A67C-6514493DBA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B71E8D-3499-41F2-A67C-6514493DBA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B71E8D-3499-41F2-A67C-6514493DBA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B71E8D-3499-41F2-A67C-6514493DBA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC53D1C-87AB-42B0-A65A-67B06AC19739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC53D1C-87AB-42B0-A65A-67B06AC19739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC53D1C-87AB-42B0-A65A-67B06AC19739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC53D1C-87AB-42B0-A65A-67B06AC19739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6598D1C2-6560-40B3-8A97-7FCB31212A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6598D1C2-6560-40B3-8A97-7FCB31212A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6598D1C2-6560-40B3-8A97-7FCB31212A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6598D1C2-6560-40B3-8A97-7FCB31212A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD8D502-518E-490B-9677-E6FA66DE8489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD8D502-518E-490B-9677-E6FA66DE8489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD8D502-518E-490B-9677-E6FA66DE8489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD8D502-518E-490B-9677-E6FA66DE8489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FB35F0-B961-492A-90F4-A1896F431EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FB35F0-B961-492A-90F4-A1896F431EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FB35F0-B961-492A-90F4-A1896F431EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FB35F0-B961-492A-90F4-A1896F431EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D036E573-1792-4D13-ACD6-C732591C2B64}
+	EndGlobalSection
+EndGlobal

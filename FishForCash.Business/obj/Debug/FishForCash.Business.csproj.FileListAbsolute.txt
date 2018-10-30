@@ -1,0 +1,760 @@
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Business.dll.config
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Business.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Business.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\netstandard.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.AppContext.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Concurrent.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.NonGeneric.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Specialized.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Console.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Data.Common.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Contracts.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Debug.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Process.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Tools.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Tracing.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Drawing.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Dynamic.Runtime.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Globalization.Calendars.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Globalization.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Globalization.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.Compression.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.IsolatedStorage.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.Pipes.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.Expressions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.Parallel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.Queryable.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Http.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.NameResolution.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.NetworkInformation.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Ping.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Requests.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Security.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Sockets.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.WebSockets.Client.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.WebSockets.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ObjectModel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Reflection.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Reflection.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Reflection.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Resources.Reader.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Resources.ResourceManager.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Resources.Writer.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Handles.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.InteropServices.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Numerics.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Claims.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Principal.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.SecureString.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Text.Encoding.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Text.RegularExpressions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Overlapped.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Tasks.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Thread.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.ThreadPool.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Timer.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ValueTuple.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.ReaderWriter.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XmlDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XmlSerializer.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XPath.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ExpressMapper.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Domain.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Repository.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Options.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Interactive.Async.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Remotion.Linq.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Immutable.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Domain.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Repository.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\FishForCash.Repository.dll.config
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ExpressMapper.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ExpressMapper.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Options.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Interactive.Async.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Remotion.Linq.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Immutable.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\FishForCash.Business.csprojAssemblyReference.cache
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\FishForCash.Business.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\FishForCash.Business.csproj.CopyComplete
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\FishForCash.Business.dll
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\FishForCash.Business.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csprojAssemblyReference.cache
+F:\CoreTemplate\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll.config
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\netstandard.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.AppContext.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Concurrent.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Collections.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Collections.NonGeneric.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Specialized.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Console.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Data.Common.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Contracts.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Debug.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Process.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tools.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tracing.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Drawing.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Dynamic.Runtime.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Calendars.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.IsolatedStorage.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.Pipes.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Linq.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Expressions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Parallel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Queryable.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.Http.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.NameResolution.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.NetworkInformation.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.Ping.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.Requests.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.Security.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.Sockets.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.Client.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.ObjectModel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Reader.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Resources.ResourceManager.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Writer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Handles.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Numerics.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.Claims.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.Principal.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Security.SecureString.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Text.RegularExpressions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Threading.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Overlapped.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Thread.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Threading.ThreadPool.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Timer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.ValueTuple.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Xml.ReaderWriter.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XDocument.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlDocument.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlSerializer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll.config
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CopyComplete
+F:\CoreTemplate\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\System.Data.SqlClient.dll
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+F:\CoreTemplate\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll.config
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\netstandard.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.AppContext.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Concurrent.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Collections.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Collections.NonGeneric.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Specialized.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Console.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Data.Common.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Debug.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Process.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tools.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Drawing.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Dynamic.Runtime.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Calendars.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.Pipes.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Linq.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Expressions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Parallel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Queryable.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.Http.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.NameResolution.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.NetworkInformation.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.Ping.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.Requests.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.Security.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.Sockets.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.ObjectModel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Reader.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Resources.ResourceManager.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Writer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Handles.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Numerics.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.Claims.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.Principal.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Security.SecureString.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Text.RegularExpressions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Threading.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Overlapped.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Thread.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Threading.ThreadPool.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Timer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.ValueTuple.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XDocument.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlDocument.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll.config
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csprojAssemblyReference.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CoreCompileInputs.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CopyComplete
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\System.Data.SqlClient.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll.config
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\netstandard.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.AppContext.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Concurrent.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Collections.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Collections.NonGeneric.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Specialized.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Console.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Data.Common.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Debug.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Process.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tools.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Drawing.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Dynamic.Runtime.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Calendars.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.Pipes.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Linq.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Expressions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Parallel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Queryable.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.Http.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.NameResolution.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.NetworkInformation.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.Ping.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.Requests.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.Security.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.Sockets.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.ObjectModel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Reader.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Resources.ResourceManager.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Writer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Handles.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Numerics.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.Claims.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.Principal.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Security.SecureString.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Text.RegularExpressions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Threading.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Overlapped.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Thread.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Threading.ThreadPool.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Timer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.ValueTuple.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XDocument.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlDocument.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Data.SqlClient.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll.config
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CopyComplete
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll.config
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Business.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\netstandard.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.AppContext.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Concurrent.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Collections.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Collections.NonGeneric.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Specialized.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Console.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Data.Common.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Debug.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Process.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tools.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Drawing.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Dynamic.Runtime.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Calendars.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Globalization.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.Pipes.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Linq.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Expressions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Parallel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Linq.Queryable.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.Http.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.NameResolution.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.NetworkInformation.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.Ping.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.Requests.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.Security.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.Sockets.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Net.WebSockets.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.ObjectModel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Reflection.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Reader.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Resources.ResourceManager.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Resources.Writer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Handles.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Numerics.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.Claims.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.Principal.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Security.SecureString.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Text.RegularExpressions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Threading.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Overlapped.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Thread.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Threading.ThreadPool.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Threading.Timer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.ValueTuple.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XDocument.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlDocument.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\EntityFramework.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Buffers.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Memory.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Numerics.Vectors.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Domain.dll.config
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Repository.dll.config
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\EntityFramework.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\ExpressMapper.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Remotion.Linq.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Buffers.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Collections.Immutable.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Interactive.Async.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Memory.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Numerics.Vectors.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.csproj.CopyComplete
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Business\obj\Debug\FishForCash.Business.pdb

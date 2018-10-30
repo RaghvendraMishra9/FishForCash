@@ -1,0 +1,9 @@
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Release\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Release\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Release\System.Configuration.ConfigurationManager.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\bin\Release\System.Data.Common.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Release\FishForCash.Utility.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Release\FishForCash.Utility.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Release\FishForCash.Utility.csproj.CopyComplete
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Release\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Utility\obj\Release\FishForCash.Utility.pdb

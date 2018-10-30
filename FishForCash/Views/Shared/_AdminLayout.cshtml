@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - Fish For Cash</title>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <!-- Fontfaces CSS-->
+    <link href="~/admin/vendor/font-awesome-5.3.1/fontawesome-v5.3.1.css" rel="stylesheet" />
+    <link href="~/admin/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="~/admin/vendor/font-awesome-5.3.1/fontawesome-v5.3.1.css" rel="stylesheet" />
+    <link href="~/admin/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="~/admin/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="~/admin/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="~/admin/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="~/admin/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="~/admin/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="~/admin/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="~/admin/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="~/admin/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="~/admin/css/theme.css" rel="stylesheet" media="all">
+    <link href="~/admin/css/custom.css" rel="stylesheet" media="all">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/playerdash.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img class="logo-fluid" src="images/ffc_logo.png" alt="" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- END HEADER MOBILE-->
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a asp-action="Index" asp-controller="Admin" as> Fish For Cash Admin</a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="active">
+                            <a asp-action="Index" asp-controller="Admin">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard
+                            </a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow " href="#">
+                                <i class="fas fa-envelope"></i>Support Emails
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="#"><i class="fas fa-inbox"></i>Inbox</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-share-square"></i>Sent Messages</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="has-sub ">
+                            <a class="js-arrow " href="#">
+                                <i class="fas fa-exclamation-triangle"></i>Gamecode Errors
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display: none;">
+                                <li>
+                                    <a asp-action="SmudgedCode" asp-controller="Admin" id="SmudgedCode"><i class="fa fa-futbol"></i>Smudged Gamecodes</a>
+                                </li>
+                                <li>
+                                    <a asp-action="AlreadyplayedCode" asp-controller="Admin" id="AlreadyplayedCode"><i class="fas fa-exclamation-triangle"></i>Already Played Errors</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fa fa-puzzle-piece"></i>Process Claims
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display: none;">
+                                <li>
+                                    <a asp-action="ProcessCheque" asp-controller="Admin" id="ProcessCheque"><i class="fas fa-dollar-sign"></i>Process Cheques</a>
+                                </li>
+                                <li>
+                                    <a asp-action="ProcessVoucher" asp-controller="Admin" id="ProcessVoucher"><i class="fas fa-print"></i>Process Vouchers</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fa fa-hospital"></i>SPCA Donations
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="#"><i class="fas fa-print"></i>Process Vouchers</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-user"></i>Donations by Player</a>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i class="fas fa-home"></i>Donations by Branch</a>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i class="far fa-edit"></i>Edit Branches</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-comments"></i>Forum
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="#"><i class="fas fa-comment"></i>View Entries</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow " href="#">
+                                <i class="fas fa-chart-bar"></i>Reports
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="#"><i class="fa fa-list-ul"></i>View Reports</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-file-excel"></i>Export Reports </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+        <div class="page-container">
+
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" asp-action="SearchPlayer" asp-controller="Admin" method="POST">
+                                <input class="au-input au-input--xl" type="text" id="data" name="data" placeholder="Search" />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+                            <ax class="nav-link" href="/"><i class="fas fa-user"></i> @User.Identity.Name</ax>
+                            <a asp-controller="Admin" asp-action="Logout" class="nav-link"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign out</a>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+            @RenderBody()
+        </div>
+    </div>
+    <!-- Jquery JS-->
+    <script src="~/admin/vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="~/admin/vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="~/admin/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="~/admin/vendor/slick/slick.min.js">
+
+        /**/</script>
+    <script src="~/admin/vendor/wow/wow.min.js"></script>
+    <script src="~/admin/vendor/animsition/animsition.min.js"></script>
+    <script src="~/admin/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+
+        /**/</script>
+    <script src="~/admin/vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="~/admin/vendor/counter-up/jquery.counterup.min.js">
+        /**/
+    </script>
+    <script src="~/admin/vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="~/admin/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="~/admin/vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="~/admin/vendor/select2/select2.min.js">
+    </script>
+
+    <!-- Main JS-->
+    <script src="~/admin/js/main.js"></script>
+    <script src="~/fusioncharts-suite-xt/js/fusioncharts.js"></script>
+    <script src="~/fusioncharts-suite-xt/js/fusioncharts.charts.js"></script>
+    <script src="~/fusioncharts-suite-xt/js/themes/fusioncharts.theme.fusion.js"></script>
+    <script src="~/fusioncharts-suite-xt/integrations/jquery/js/jquery-fusioncharts.js"></script>
+   
+
+    <script>
+        $(function () {
+            setNavigation();
+        });
+
+        function setNavigation() {
+            var path = window.location.pathname;
+            path = path.replace(/\/$/, "");
+            path = decodeURIComponent(path);
+            getsplitval = path.split("/")[2];
+            $(".navbar-sidebar ul li a").each(function () {
+                var id = $(this).attr('id');
+
+                if (getsplitval != undefined && getsplitval === id) {
+                    $(this).parent().parent().css('display', 'block');
+                }
+            });
+
+        }
+    </script>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

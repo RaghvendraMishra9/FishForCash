@@ -1,0 +1,667 @@
+﻿@model FishForCash.Repository.DB.TreasureChest
+@{
+    ViewData["Title"] = "SwapForBooty";
+}
+
+
+<section class="content-wrapper main-content clear-fix">
+
+    <main role="main">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+
+                <div class="col col-md-12 col-lg-10 text-center">
+                    <h1 class="top-title">Get Free Gamecodes</h1>
+
+                    <div class="d-none">
+
+                        <!--show on successful gamecode generation-->
+
+                        <div class="alert alert-success col-sm-8 mx-auto ">
+                            <h3>Success! You new gamecode has been generated.</h3>
+                            <h5>
+                                You can play your free gamecode now by clicking the button below or later from your dashboard.
+                            </h5>
+
+                        </div>
+                        <div class="info-box col-md-10 mx-auto mt-2 pb-3">
+                            <h1>
+                                <span class="yellow">Freecode:</span> 65206375358
+                            </h1>
+                            <input type="submit" name="action" value="PLAY FREECODE NOW" class="btn btn-warning btn-lg">
+                        </div>
+                    </div>
+
+                    <h2>Swap your Booty for a FREE Gamecode</h2>
+
+                    <p class="px-5">
+                        Collect any <span class="yellow">FIVE</span> of the same Booty items and you can swap them for a free gamecode to play another game of Fish for Cash.
+                    </p>
+                    <h3 class="yellow"> You can swap 5  of these for a free Gamecode:</h3>
+
+
+                    <div class="row justify-content-center">
+
+                        @if (Model != null && Model.a > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "a"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.a
+                                    </div>
+                                    <a asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="a" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.b > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "b"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.b
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="b" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.c > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "c"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.c
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="c" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.d > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "d"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.d
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="d" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.e > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "e"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.e
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="e" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.f > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "f"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.f
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="f" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.g > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "g"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.g
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="g" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.h > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "h"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.h
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="h" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.i > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "i"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.i
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="i" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.j > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "j"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.j
+                                    </div>
+                                    <a asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="j" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.k > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "k"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.k
+                                    </div>
+                                    <a asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="k" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.l > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "l"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.l
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="l" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.m > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "m"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.m
+                                    </div>
+                                    <a asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="m" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.n > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "n"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.n
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="n" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.o > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "o"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.o
+                                    </div>
+                                    <a asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="o" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.p > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "p"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.p
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="p" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.q > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "q"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.q
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="q" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.r > 4)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "r"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.r
+                                    </div>
+                                    <a  asp-action="SwapBooty" asp-controller="Booty" asp-route-icon="r" class="btn btn-warning">Swap</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <p>&nbsp;</p>
+                    <h4> You need more of these. Check the Booty Market:</h4>
+                    <div class="row justify-content-center">
+
+                        @if (Model !=null && Model.a < 5 && Model.a > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "a"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.a
+                                    </div>
+                                    <a asp-action="BootyMarket" asp-route-tradebooty="a" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.b < 5 && Model.b > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "b"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.b
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="b" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.c < 5 && Model.c > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "c"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.c
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="c" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.d < 5 && Model.d > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "d"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.d
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="d" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.e < 5 && Model.e > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "e"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.e
+                                    </div>
+                                    <a asp-action="BootyMarket" asp-route-tradebooty="e" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.f < 5 && Model.f > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "f"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.f
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="f" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.g < 5 && Model.g > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "g"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.g
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="g" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.h < 5 && Model.h > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "h"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.h
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="h" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.i < 5 && Model.i > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "i"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.i
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="i" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null && Model.j < 5 && Model.j > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "j"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.j
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="j" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.k < 5 && Model.k > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "k"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.k
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="k" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.l < 5 && Model.l > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "l"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.l
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="l" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.m < 5 && Model.m > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "m"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.m
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="m" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.n < 5 && Model.n > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "n"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.n
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="n" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.o < 5 && Model.o > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "o"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.o
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="o" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.p < 5 && Model.p > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "p"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.p
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="p" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.q < 5 && Model.q > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "q"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.q
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="q" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                        @if (Model != null &&  Model.r < 5 && Model.r > 0)
+                        {
+                            <div class="col col-sm-2 nopadding">
+                                <div class="booty-tile">
+                                    <div class="actions-tile">
+                                        <div class="circle-inner">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", "r"))" class="img-fluid  rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="item-count">
+                                        @Model.r
+                                    </div>
+                                    <a  asp-action="BootyMarket" asp-route-tradebooty="r" class="btn btn-warning">Check</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+

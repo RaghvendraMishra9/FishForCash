@@ -1,0 +1,148 @@
+﻿@model FishForCash.Web.Models.LoginViewModel
+
+<div class="row justify-content-center">
+    @if (User.Identity.IsAuthenticated)
+    {
+        @if (User.Claims.ToArray()[3].Value != "Admin")
+        {
+
+            <div class="col-12 col-lg-10">
+                <br />
+                <form class="form mt-2 mt-md-0" novalidate="novalidate">
+                    <div class="form-group">
+                        <input placeholder="Enter your Gamecode" class="form-gamecode text-center form-control mr-sm-2 my-2" maxlength="11" type="text" id="manualgamecode" name="manualgamecode" value="">
+                        <span style="color:red;" id="errorgamecode"></span>
+                    </div>
+                    <div class="form-group">
+                        @* <input type="submit" id="btnmanualgamecode"  value="PLAY GAME" class="btn btn-warning btn-block btn-lg my-2 my-sm-0">*@
+                        <a href="#" id="btnmanualgamecode" class="btn btn-warning btn-block btn-lg my-2 my-sm-0">PLAY GAME</a>
+                    </div>
+                </form>
+                <ul class="nav flex-column">
+                    <li class="nav-item"> <a class="nav-link" asp-controller="PlayerAccount" asp-action="DashBoard"> <i class="icon" data-feather="home"></i> Account Dashboard </a> </li>
+                </ul>
+                <h5 class="text-center  yellow d-flex justify-content-between align-items-center  mt-4 mb-1"> Fish For Cash <a class="d-flex align-items-center" href="#"> <i class="icon" data-feather="plus-circle"></i> </a> </h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item"> <a class="nav-link" asp-action="FreeGameCodes" asp-controller="PlayerAccount"> <i class="icon" data-feather="anchor"></i> Play Free Gamecodes <label class="badge badge-pill badge-success" id="NotUsedGameCode">  @ViewBag.NotUsedGameCodes</label> </a> </li>
+                    <li class="nav-item"> <a class="nav-link" asp-action="Index" asp-controller="Claim"> <i class="icon" data-feather="dollar-sign"></i> Claim  Cash &amp; Prizes </a> </li>
+                    <li class="nav-item"> <a class="nav-link  active" href="#"> <i class="icon" data-feather="arrow-right"></i> Donate to the SPCA <span class="sr-only">(current)</span> </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="help-circle"></i> How to Play </a> </li>
+                </ul>
+                <h5 class="text-center yellow  d-flex justify-content-between align-items-center  mt-4 mb-1"> Booty Rewards <a class="d-flex align-items-center" href="#"> <i class="icon" data-feather="plus-circle"></i> </a> </h5>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item"> <a class="nav-link" asp-action="Index" asp-controller="Booty"> <i class="icon" data-feather="star"></i> Collect Booty <span class="badge badge-pill badge-success" id="NotRewardedBooty">@ViewBag.NotRewardedBootyCount </span> </a> </li>
+                    <li class="nav-item"> <a class="nav-link" asp-action="TradeBooty" asp-controller="Booty"> <i class="icon" data-feather="corner-right-up"></i> Trade Booty <span class="badge badge-pill badge-dark">202</span> </a> </li>
+                    <li class="nav-item"> <a class="nav-link" asp-action="BootyMarket" asp-controller="Booty"> <i class="icon" data-feather="shuffle"></i> Booty Market <span class="badge badge-pill badge-dark">90</span> </a> </li>
+                    <li class="nav-item"> <a class="nav-link" asp-action="SwapForBooty" asp-controller="Booty"> <i class="icon" data-feather="refresh-ccw"></i> Swap for Gamecodes </a> </li>
+                </ul>
+                <h5 class="text-center yellow  d-flex justify-content-between align-items-center  mt-4 mb-1"> $1000 Giveaway <a class="d-flex align-items-center" href="#"> <i class="icon" data-feather="plus-circle"></i> </a> </h5>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="gift"></i> Enter Monthly Draw <span class="badge badge-pill badge-success">2</span> </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="award"></i> Latest Winners </a> </li>
+                </ul>
+                <h5 class="text-center yellow  d-flex justify-content-between align-items-center  mt-4 mb-1"> <span>Forum</span> <a class="d-flex align-items-center" href="#"> <i class="icon" data-feather="plus-circle"></i> </a> </h5>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit"></i> Post a Message </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="message-square"></i> Latest Posts </a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="icon" data-feather="list"></i> All Topics </a>
+                        <ul class="sub-nav nav flex-column mb-0 ml-4">
+                            <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit-3"></i> Winners Shout out </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit-3"></i> Pet Banter </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit-3"></i> Member Banter </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit-3"></i> Animal Health &amp; Nutrition </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit-3"></i> Animal Welfare </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit-3"></i> Booty Trading </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="edit-3"></i> Help Desk </a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5 class="text-center yellow  d-flex justify-content-between align-items-center  mt-4 mb-1"> Help &amp; Support <a class="d-flex align-items-center" href="#"> <i class="icon" data-feather="plus-circle"></i> </a> </h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="tag"></i> Open a Support Ticket </a> </li>
+                    <li class="nav-item"> <a class="nav-link" asp-controller="SmudgedCode" asp-action="Index"> <i class="icon" data-feather="alert-triangle"></i> Problem Codes </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"> <i class="icon" data-feather="help-circle"></i> How to Play </a> </li>
+                </ul>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            </div>
+        }
+    }
+    else
+    {
+
+        <div class="col col-sm-10">
+            <p>&nbsp</p>
+            <h4 class="text-center white">Register to Play</h4>
+            <div class="form-group">
+                <a asp-area="" asp-controller="Account" asp-action="Register" class="btn btn-warning btn-block btn-lg my-2 my-sm-0">Register</a>
+            </div>
+            <p>&nbsp</p>
+            <h4 class="text-center white">Account Login</h4>
+            <form asp-action="Login" asp-controller="Account" class="form mt-2 mt-md-0">
+                <div class="form-group">
+
+                    <input asp-for="EmailId" placeholder="Email Address" class=" form-control mr-sm-2 my-2" />
+                    <span asp-validation-for="EmailId" class="text-danger "></span>
+                </div>
+                <div class="form-group">
+
+                    <input asp-for="Password" placeholder="Password" class=" form-control mr-sm-2 my-2" />
+                    <span asp-validation-for="Password" class="text-danger "></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login" class="btn btn-warning btn-block btn-lg my-2 my-sm-0" />
+                </div>
+            </form>
+            <a asp-area="" asp-controller="Account" asp-action="ForgotPassword" class="nav-link">Forgot your Password?</a>
+            <p>&nbsp</p>
+            <h4><a href="#">How to Play?</a> </h4>
+            <h4><a href="#">Terms &amp; Conditions</a> </h4>
+        </div>
+
+    }
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/Feature/feather-icons.js"></script>
+<script src="~/lib/Feature/feather.min.js"></script>
+<script>
+    feather.replace();
+</script>
+<script>
+    $("document").ready(function () {
+        $.ajax({
+            url: '/PlayerAccount/BindLayout',
+            type: 'GET',
+            dataType: "JSON",
+            success: function (response) {
+                $("#NotUsedGameCode").text(response.notUsedGameCodes);
+                $("#NotRewardedBooty").text(response.bootyCount);
+            }
+        });
+    });
+    $("#btnmanualgamecode").click(function () {
+        $("#errorgamecode").text("");
+        var gamecode = $("#manualgamecode").val();
+        var maxlength = 11;
+        var isnum = /^\d+$/.test(gamecode);
+        if (gamecode == "") {
+            $("#errorgamecode").text("Enter game code.");
+            return false;
+        }
+        if (!isnum) {
+            $("#errorgamecode").text("Enter valid game code.");
+            return false;
+        }
+
+        if (maxlength != gamecode.length) {
+            $("#errorgamecode").text("Enter 11 digit game code.");
+            return false;
+        }
+        $("#errorgamecode").text("");
+        $("#btnmanualgamecode").attr("href", "/PlayerWebCode/PlayedGameCode?gamecode=" + gamecode);
+
+
+    });
+
+</script>

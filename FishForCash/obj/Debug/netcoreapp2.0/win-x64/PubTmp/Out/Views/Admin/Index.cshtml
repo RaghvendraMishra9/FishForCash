@@ -1,0 +1,457 @@
+﻿@model IEnumerable<FishForCash.Domain.Player.PlayerModel>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_AdminLayout";
+}
+       @*@Html.Partial("_AlertsPartial");*@
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3 class="title-2 m-b-25">Support Center</h3>
+                                <div class="card">
+
+                                    <table border="0" cellpadding="0" class="table">
+
+                                        <tbody>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    <h4> Support Emails  <span class="badge badge-success">5 UNREAD</span></h4>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-secondary btn-block">View</a>
+                                                </td>
+
+
+                                            </tr>
+                                            <tr></tr>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    <h4>  Smudged Gamecodes  <span class="badge badge-info">@ViewBag.SmudgedCount</span></h4>
+                                                </td>
+                                                <td>
+                                                    <a asp-action="SmudgedCode" asp-controller="Admin" class="btn btn-secondary btn-block">View</a>
+                                                </td>
+
+
+                                            </tr>
+                                            <tr>
+
+                                                <td class="align-middle">
+                                                    <h4> Already Played Errors <span class="badge badge-info">@ViewBag.AlreadyPlayedCount</span></h4>
+                                                </td>
+                                                <td>
+                                                    <a asp-action="AlreadyplayedCode" asp-controller="Admin" class="btn btn-secondary btn-block">View</a>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+
+                                                <td class="align-middle">
+                                                    <h4> Free Samples<span class="badge badge-info">4</span></h4>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-secondary btn-block">View</a>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <h3 class="title-2 m-b-25">Players Registered</h3>
+                                <div id="chart-container"></div>
+                                <div class="card">
+
+                                    <table border="0" cellpadding="0" class="table table-striped">
+
+                                        <tbody>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    This Week
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>95</strong>
+                                                </td>
+
+
+                                            </tr>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    Last Week
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>235</strong>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    This Year
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>6795</strong>
+                                                </td>
+
+
+                                            </tr>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    <strong> Total Validated Players</strong>
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>190,095</strong>
+                                                </td>
+
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+
+
+                                <h3 class="title-2 m-b-25">This Week at a Glance</h3>
+                                <div class="card">
+                                    <table border="0" cellpadding="0" class="table table-md table-striped">
+                                        <tbody>
+                                            
+                                            @foreach (var item in ViewBag.PrizeList)
+                                            {
+                                                <tr>
+                                                   <td>@item.PrizeName</td> <td class="text-right"><strong>@item.NumberAwarded</strong></td>
+                                                </tr>
+                                                
+                                            }
+
+                                        </tbody>
+
+
+                                    </table>
+                                </div>
+                                <h3 class="title-2 m-b-25">Gamecodes Played</h3>
+
+                                <div class="card">
+                                    <table class="table table-striped table-lg">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+
+                                                    This week:
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>112 </strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                    Last week:
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>1, 045 </strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                    This month:
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>1, 012 </strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                    Last month:
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>4, 212 </strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                    This year:
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>252,102 </strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                    Last year:
+                                                </td>
+                                                <td class="text-right">
+                                                    <strong>1,152,102 </strong>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <h3 class="title-2 m-b-25">Balances</h3>
+
+                                <div class="card">
+                                    <table class="table table-striped table-lg">
+                                        <tbody>
+                                            @foreach (var item in ViewBag.CashPrizeCount)
+                                            {
+                                                <tr>
+                                                    <td>@item.PrizeType</td>
+                                                    <td class="text-right"><strong>@item.BalanceCount</strong></td>
+                                                </tr>
+
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h3 class="title-2 m-b-25">New Players (Last 50)</h3>
+                                <div class="table-responsive table--no-card m-b-40">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th>
+
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.FirstName)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.LastName)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.ScreenName)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.EmailId)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.PhoneNo)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.Occupation)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.AgeGroup)
+                                                </th>
+                                                <th>
+                                                    Country Name
+                                                </th>
+                                                <th>
+                                                    State Name
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.City)
+                                                </th>
+                                                <th>
+                                                    Street
+                                                </th>
+                                                <th>
+                                                    Suburb
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.GetUpdateByEmail)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.CreatedDate)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.Active)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.NoOfTimesPlayed)
+                                                </th>
+                                                <th>
+                                                    @Html.DisplayNameFor(model => model.WatchGamePlay)
+                                                </th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        <a asp-action="PlayerDashboard" asp-controller="Admin" asp-route-playerId="@item.PLayerId" class="btn btn-secondary btn-block">View</a>
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.FirstName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.LastName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ScreenName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.EmailId)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.PhoneNo)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Occupation)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.AgeGroupStr)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.CountryName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.StateName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.City)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Address1)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Address2)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.GetUpdateByEmailStr)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.CreatedDate)
+                                                    </td>
+
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ActiveStr)
+                                                    </td>
+
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.NoOfTimesPlayed)
+                                                    </td>
+
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.WatchGamePlayStr)
+                                                    </td>
+
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2018 Fish For Cash. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END MAIN CONTENT-->
+                <!-- END PAGE CONTAINER-->
+            </div>
+
+            
+        <div id="chart-container"></div>  
+@section Scripts{
+
+
+    <script>
+        function GetChart() {
+            $.ajax({
+                url: '/Admin/GetChart',
+                type: "GET",
+                dataType: "JSON",
+                data: {},
+                success: function (states) {
+                   
+                }
+            });
+        }
+    </script>
+
+
+    <script>
+        $("#chart-container").insertFusionCharts({
+            type: "line",
+            width: "741",
+            height: "400",
+            dataFormat: "json",
+            dataSource: {
+                chart: {
+                    // caption: "Countries With Most Oil Reserves [2017-18]",
+                    // subCaption: "In MMbbl = One Million barrels",
+                    xAxisName: "Number Of Month",
+                    // yAxisName: "Reserves (MMbbl)",
+                    // numberSuffix: "K",
+                    theme: "fusion"
+                },
+                data: [
+                    {
+                        label: "1",
+                        value: "50"
+                    },
+                    {
+                        label: "2",
+                        value: "70"
+                    },
+                    {
+                        label: "3",
+                        value: "50"
+                    },
+                    {
+                        label: "4",
+                        value: "100"
+                    },
+                    {
+                        label: "5",
+                        value: "150"
+                    },
+                    {
+                        label: "6",
+                        value: "200"
+                    },
+                    {
+                        label: "7",
+                        value: "250"
+                    } ,
+                     {
+                        label: "8",
+                        value: "250"
+                    },
+                    {
+                        label: "9",
+                        value: "250"
+                    },
+                    {
+                        label: "10",
+                        value: "250"
+                    },
+                    {
+                        label: "11",
+                        value: "250"
+                    },
+                    {
+                        label: "12",
+                        value: "250"
+                    }
+
+                ]
+            }
+        });
+    </script>
+}

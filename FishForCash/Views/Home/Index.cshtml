@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    var message = ViewBag.Message;
+    string ReturnUrl = Context.Request.Query["ReturnUrl"].ToString();
+}
+<div class="container body-content">
+    <div class="row text-center" style="margin-top:35%">
+        <div class="col-lg-12">
+            <h1 class="text-success">Welcome to Fish For Cash</h1>  
+            @if (!string.IsNullOrEmpty(ReturnUrl))
+            {
+                <h1>You're back! It's been a while so we logged you out.</h1>
+                <h3>Please login again to continue playing.</h3>
+            }
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+
+}
+
+

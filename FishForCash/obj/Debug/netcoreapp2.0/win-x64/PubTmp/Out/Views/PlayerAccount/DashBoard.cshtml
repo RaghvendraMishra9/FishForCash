@@ -1,0 +1,196 @@
+﻿@model FishForCash.Domain.Player.PlayerModel
+
+<section class="content-wrapper main-content clear-fix">
+    <main role="main">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col col-sm-10 col-lg-8 text-center">
+                    <h1 class="top-title">Your Dashboard</h1>
+
+                    @if (Model.LastDatePlayedDiff == "0" || Model.LastDatePlayedDiff == null)
+                    {
+                        <h3> Welcome  @Model.FirstName.<br />
+                         You haven't played Fish for Cash yet.
+                    </h3>
+
+                    }
+                    else
+                    {
+
+                        <h3>
+                            Welcome back @Model.FirstName.<br />
+                            You last played @Model.LastDatePlayedDiff.
+                        </h3>
+                    }
+                   
+                    @if (Model.NotUsedGameCodes != 0)
+                    {
+                        <div class="alert alert-info">You have @Model.NotUsedGameCodes FREE gamecodes waiting to be played. <a asp-action="FreeGameCodes" asp-controller="PlayerAccount">Click here to play</a></div>}
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col col-sm-12 col-xl-6 text-left">
+                    <div class="row justify-content-center">
+                        <div class="col col-sm-6 col-md-4 text-left" style="margin-right: 70px;">
+                            <h3 class="text-center">@Model.ScreenName</h3>
+                            @if (ViewBag.PlayerImage != null)
+                            {
+                                <img src="@ViewBag.PlayerImage" id="profile-img-tag" class="playerimg" alt="avatar">
+                            }
+                            else
+                            {
+
+                                <img src="~/img/Default.png" id="profile-img-tag" class="playerimg" alt="avatar">
+                            }
+                        </div>
+                        <div class="col col-sm-6 col-md-6 text-left">
+                            <table border="0" cellspacing="0" cellpadding="3" align="center" class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td> Joined </td>
+                                        <td> @Model.CreatedDateStr </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Played </td>
+                                        <td> @Model.NoOfTimesPlayed </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Won </td>
+                                        <td> @Model.NoOftimesWon </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Donated </td>
+                                        <td> 0 </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row justify-content-center">
+
+                      
+                            <div class="col col-sm-6 col-md-6 text-left">
+                                <div class="info-tile">
+                                    <h3 class="yellow text-center">Cash Balance</h3>
+                                    <h1 class="text-center">
+                                        @ViewBag.CashAmount<br />
+                                        <input type="submit" name="booty" value="Redeem" class="btn btn-warning">
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="col col-sm-6 col-md-6 text-left">
+                                <div class="info-tile">
+                                    <h3 class="yellow text-center">Product Balance</h3>
+                                    <h1 class="text-center">
+                                        @ViewBag.PrizeAmount<br />
+                                        <input type="submit" name="booty" value="Redeem" class="btn btn-warning">
+                                    </h1>
+                                </div>
+                            </div>                  
+
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col col-sm-6 col-md-6 text-left">
+                            <div class="info-tile">
+                                <h3 class="yellow text-center">Booty to Collect</h3>
+                                <h1 class="text-center">
+                                    @ViewBag.NotRewardedBooty <br />
+                                    <input type="submit" name="booty" value="Get Booty" class="btn btn-warning">
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-md-6 text-left">
+                            <div class="info-tile">
+                                <h3 class="yellow text-center">Giveaway Entries</h3>
+                                <h1 class="text-center">
+                                    0 <br />
+                                    <input type="submit" name="booty" value="Enter Draw" class="btn btn-warning">
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-xl-6 text-left">
+                    <h3 class="yellow text-left">Recent Plays</h3>
+                    <table border="0" cellspacing="0" cellpadding="3" align="center" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th> Played </th>
+                                <th> Gamecode </th>
+                                <th align="center"> Result </th>
+                                <th align="center"> Booty </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.WinningDetailList != null)
+                            {
+                                @foreach (var item in Model.WinningDetailList)
+                                {
+                            <tr>
+                                <td> @item.DateWonstr </td>
+                                <td> @item.GameCodeNo </td>
+                                <td align="center"> @item.Result </td>
+                                @if (!string.IsNullOrEmpty(item.RewardIcon))
+                                {
+                                    <td align="center"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.RewardIcon))" width="45" > </td>
+
+                                }
+                                else
+                                {
+
+                                    <td align="center">
+                                        <form name="CFForm_3" id="CFForm_3" action="" method="post">
+                                            <input type="hidden" name="gamecodeno" value="xxx">
+                                            <a asp-action="GetBooty" asp-controller="Booty" asp-route-gamecode="@item.GameCodeNo" class="btn btn-warning">Get</a>
+                                        </form>
+                                    </td>
+                                }
+
+                            </tr>
+                                }
+                            }
+                           
+                        </tbody>
+                    </table>
+                    @if (Model.WinningDetailList == null)
+                    {
+                    <h3>No Gamecodes played yet.</h3>
+                    }
+                    <h3 class="yellow text-left">Recent Wins</h3>
+                    <table border="0" cellspacing="0" class="table table-striped table-condensed">
+                        <thead>
+                            <tr>
+                                <th> Date </th>
+                                <th> Type </th>
+                                <th> Description </th>
+                                <th> Prize </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.TransactionModelList != null)
+                            {
+                                @foreach (var item in Model.TransactionModelList)
+                                {
+                                    <tr>
+
+                                        <td> @item.TransactionDatestr </td>
+                                        <td> @item.TransactionType </td>
+                                        <td> @item.Description </td>
+                                        <td>@item.TransactionValue </td>
+                                    </tr>
+                                }
+                            }
+
+                        </tbody>
+
+                    </table>
+                    @if (Model.TransactionModelList == null)
+                    {
+                        <h3>No winning plays yet.</h3>
+                    }
+                </div>
+            </div>
+        </div>
+    </main>
+</section>

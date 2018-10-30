@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 991px) {
+	
+.logo-fluid {
+    max-width: 70%;
+    height: auto;
+}
+	
+.copyright {
+	margin-bottom: 50px;
+}
+	
+}
+
+
+
+
+

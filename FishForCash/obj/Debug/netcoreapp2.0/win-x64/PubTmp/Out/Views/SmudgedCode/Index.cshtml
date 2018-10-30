@@ -1,0 +1,68 @@
+﻿@model FishForCash.Domain.Smudged.SmudgedModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="row justify-content-center text-center">
+    <h1 class="top-title">Smudged Gamecode</h1>
+    <div class="col-12 col-md-10">
+        <h3 class="yellow">Oh no! Your gamecode is smudged or has become illegible. </h3>
+        <h4> It's Ok, it happens from time to time. Just  fill in the details below and our customer service team will review your request and issue you with a replacement code. </h4>
+    </div>
+    <div class="col-12 col-md-10 col-xl-8">
+        @if (ViewBag.Massege == null)
+        {
+            <form class="form mt-2 mt-md-6" asp-action="Index" asp-controller="SmudgedCode" method="post">
+                <div class="content-box">
+                    <div class="form-group">
+                        <label class="control-label" for="GameCode">Game Code</label>
+                        <input class="form-control text-center" asp-for="SmudgedCode">
+                        <span asp-validation-for="SmudgedCode" class="text-danger"></span>
+                        <p class="form-text">
+                            Please type as much as you can of your
+                            gamecode. Put a <span class="yellow large" style="font-size:larger"> ?</span> in place of the numbers you can't read.
+                        </p>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label" for="productName">Product Name</label>
+                        <input class="form-control  text-center" asp-for="ProductName">
+                        <span asp-validation-for="ProductName" class="text-danger"></span>
+                        <p class="form-text"> Enter the product name </p>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label" for="expiry">Expiry Date</label>
+                        <input class="form-control  text-center " style="max-width:160px;margin:auto;" asp-for="ExpiryDate">
+                        <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+                        <p class="form-text"> Enter the expiry date on the roll. </p>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="action" value="Submit Smudged Gamecode" class="btn btn-lg btn-warning btn-block">
+                    </div>
+                </div>
+            </form>
+
+        }
+        else if (ViewBag.Massege == "Submit")
+        {
+
+            <div class="alert alert-success">
+                <h4><i class="fa fa-check"></i> New gamecode request sent</h4>
+                <p> Our Customer Service Team will review your request and replacement codes issued at their discretion. </p>
+                <p> Please check your account again in a few days time for a replacement code. </p>
+            </div>
+
+        }
+        else if (ViewBag.Massege == "AlreadyCodeExist")
+        { 
+            <div class="alert alert-danger">
+                <h4><i class="fa fa-check"></i> Your request already sent for this gamecode.</h4>
+                <p> Our Customer Service Team will review your request and replacement codes issued at their discretion. </p>
+                <p> Please check your account again in a few days time for a replacement code. </p>
+            </div>
+        }
+    </div>
+</div>
+
+

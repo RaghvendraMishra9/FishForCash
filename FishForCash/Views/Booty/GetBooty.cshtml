@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "GetBooty";
+    Dictionary<int, string> dictionary =((List<KeyValuePair<int, string>>)ViewBag.RandomBooty).ToDictionary(x=>x.Key, pair => pair.Value);
+    string otherstr = string.Empty;
+    foreach(var item in dictionary)
+    {
+
+        otherstr += $"{item.Key}#{item.Value},";
+    }
+}
+
+<div class="row justify-content-center text-center">
+
+    <div class="col-12 col-md-12">
+
+        <h3>Collect Booty for GameCode :@ViewBag.Gamecode </h3>
+        <h4> Click any one of the 5 treasures below to collect your booty.</h4>
+        <div class="row">
+
+            <div class="col col-sm-2 nopadding">
+                <a asp-action="Index" asp-controller="Booty" asp-route-icon="@ViewBag.RandomBooty[0].Value" asp-route-key="@ViewBag.RandomBooty[0].Key" asp-route-other=@otherstr asp-route-gamecode=@ViewBag.Gamecode>
+                    <div class="booty-tile">
+                        <div class="actions-tile">
+                            <div class="chest-circle-inner">
+                                <img src="~/Booty_Chest_Icons/chest_animation.gif" class="img-fluid  rounded-circle" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col-sm-2 nopadding">
+                <a asp-action="Index" asp-controller="Booty" asp-route-icon="@ViewBag.RandomBooty[1].Value" asp-route-key="@ViewBag.RandomBooty[1].Key" asp-route-other=@otherstr asp-route-gamecode=@ViewBag.Gamecode>
+                    <div class="booty-tile">
+                        <div class="actions-tile">
+                            <div class="chest-circle-inner">
+                                <img src="~/Booty_Chest_Icons/chest_animation-2.gif" class="img-fluid  rounded-circle" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col-sm-2 nopadding">
+                <a asp-action="Index" asp-controller="Booty" asp-route-icon="@ViewBag.RandomBooty[2].Value" asp-route-key="@ViewBag.RandomBooty[2].Key" asp-route-other=@otherstr asp-route-gamecode=@ViewBag.Gamecode>
+                    <div class="booty-tile">
+                        <div class="actions-tile">
+                            <div class="chest-circle-inner">
+                                <img src="~/Booty_Chest_Icons/chest-animation-3.gif" class="img-fluid  rounded-circle" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col-sm-2 nopadding">
+                <a asp-action="Index" asp-controller="Booty" asp-route-icon="@ViewBag.RandomBooty[3].Value" asp-route-key="@ViewBag.RandomBooty[3].Key" asp-route-other=@otherstr asp-route-gamecode=@ViewBag.Gamecode>
+                    <div class="booty-tile">
+                        <div class="actions-tile">
+                            <div class="chest-circle-inner">
+                                <img src="~/Booty_Chest_Icons/chest_animation-2.gif" class="img-fluid  rounded-circle" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col-sm-2 nopadding">
+                <a asp-action="Index" asp-controller="Booty" asp-route-icon="@ViewBag.RandomBooty[4].Value" asp-route-key="@ViewBag.RandomBooty[4].Key" asp-route-other=@otherstr asp-route-gamecode=@ViewBag.Gamecode>
+                    <div class="booty-tile">
+                        <div class="actions-tile">
+                            <div class="chest-circle-inner">
+                                <img src="~/Booty_Chest_Icons/chest_animation.gif" class="img-fluid  rounded-circle" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col col-sm-8">
+            <div class="alert alert-danger">
+
+
+                <h4> IMPORTANT!!!</h4>
+                <h5> You must select a treasure chest NOW before leaving this page. If you leave this page before making your selection your play will be void.</h5>
+            </div>
+        </div>
+    </div>
+
+</div>
+

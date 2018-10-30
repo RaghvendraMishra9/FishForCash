@@ -1,0 +1,311 @@
+F:\Clients\peter\ModularX\ModularX.Business\bin\Debug\ModularX.Business.dll
+F:\Clients\peter\ModularX\ModularX.Business\bin\Debug\ModularX.Business.pdb
+F:\Clients\peter\ModularX\ModularX.Business\obj\Debug\ModularX.Business.csproj.CoreCompileInputs.cache
+F:\Clients\peter\ModularX\ModularX.Business\obj\Debug\ModularX.Business.dll
+F:\Clients\peter\ModularX\ModularX.Business\obj\Debug\ModularX.Business.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Business.dll.config
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Business.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Business.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\netstandard.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.AppContext.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Collections.Concurrent.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Collections.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Collections.NonGeneric.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Collections.Specialized.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Console.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Data.Common.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Contracts.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Debug.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Process.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Tools.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Tracing.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Drawing.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Dynamic.Runtime.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Globalization.Calendars.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Globalization.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Globalization.Extensions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.Compression.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.IsolatedStorage.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.Pipes.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Linq.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Linq.Expressions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Linq.Parallel.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Linq.Queryable.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.Http.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.NameResolution.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.NetworkInformation.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.Ping.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.Requests.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.Security.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.Sockets.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.WebSockets.Client.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Net.WebSockets.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.ObjectModel.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Reflection.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Reflection.Extensions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Reflection.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Resources.Reader.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Resources.ResourceManager.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Resources.Writer.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.Extensions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.Handles.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.InteropServices.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.Numerics.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.Claims.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.Principal.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Security.SecureString.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Text.Encoding.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Text.RegularExpressions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Threading.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Threading.Overlapped.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Threading.Tasks.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Threading.Thread.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Threading.ThreadPool.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Threading.Timer.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.ValueTuple.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Xml.ReaderWriter.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Xml.XDocument.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Xml.XmlDocument.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Xml.XmlSerializer.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Xml.XPath.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ExpressMapper.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Domain.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Repository.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Options.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Interactive.Async.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Remotion.Linq.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Collections.Immutable.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Data.SqlClient.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Domain.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Repository.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ModularX.Repository.dll.config
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ExpressMapper.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\ExpressMapper.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Identity.Stores.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Options.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Interactive.Async.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Remotion.Linq.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Collections.Immutable.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Clients\PETER NEW\ModularX\ModularX.Business\obj\Debug\ModularX.Business.csproj.CoreCompileInputs.cache
+F:\Clients\PETER NEW\ModularX\ModularX.Business\obj\Debug\ModularX.Business.csproj.CopyComplete
+F:\Clients\PETER NEW\ModularX\ModularX.Business\obj\Debug\ModularX.Business.dll
+F:\Clients\PETER NEW\ModularX\ModularX.Business\obj\Debug\ModularX.Business.pdb
+F:\Clients\PETER NEW\ModularX\ModularX.Business\obj\Debug\ModularX.Business.csprojAssemblyReference.cache
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Business.dll.config
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Business.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Business.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\netstandard.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.AppContext.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Concurrent.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.NonGeneric.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Specialized.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Console.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Data.Common.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Contracts.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Debug.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Process.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Tools.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.Tracing.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Drawing.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Dynamic.Runtime.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Globalization.Calendars.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Globalization.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Globalization.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.Compression.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.IsolatedStorage.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.Pipes.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.Expressions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.Parallel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Linq.Queryable.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Http.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.NameResolution.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.NetworkInformation.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Ping.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Requests.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Security.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.Sockets.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.WebSockets.Client.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Net.WebSockets.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ObjectModel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Reflection.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Reflection.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Reflection.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Resources.Reader.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Resources.ResourceManager.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Resources.Writer.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Handles.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.InteropServices.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Numerics.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Claims.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.Principal.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Security.SecureString.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Text.Encoding.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Text.RegularExpressions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Overlapped.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Tasks.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Thread.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.ThreadPool.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Threading.Timer.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.ValueTuple.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.ReaderWriter.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XmlDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XmlSerializer.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XPath.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ExpressMapper.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Domain.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Repository.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Options.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Interactive.Async.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Remotion.Linq.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Immutable.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Domain.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Repository.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ModularX.Repository.dll.config
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ExpressMapper.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\ExpressMapper.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Identity.Stores.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Options.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Interactive.Async.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Remotion.Linq.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Collections.Immutable.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\ModularX.Business.csprojAssemblyReference.cache
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\ModularX.Business.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\ModularX.Business.csproj.CopyComplete
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\ModularX.Business.dll
+F:\CoreTemplate\ModularX\ModularX.Business\obj\Debug\ModularX.Business.pdb
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\System.Data.SqlClient.dll
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+F:\CoreTemplate\ModularX\ModularX.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml

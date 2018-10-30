@@ -1,0 +1,57 @@
+﻿@model FishForCash.Web.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<div class="row">
+    <div class="col-md-5 mx-auto mt-5 py-5 px-5" style="background:#fff; box-shadow: 0px 0px 1px 2px #0000001a;">
+        <h4>Login</h4>
+        <hr />
+        <form asp-action="Login">
+            <div class="row"></div>
+            <div class="form-group">
+                <label asp-for="EmailId" class="control-label"></label>
+                <input asp-for="EmailId" class="form-control" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span><i class="fa fa-eye eye-password" aria-hidden="true"></i>
+                
+            </div>
+            @*<div class="form-group">
+                @Html.EditorFor(model => model.RememberMe, new { type = "checkbox" })
+                @Html.LabelFor(model => model.RememberMe)
+                @Html.ValidationMessageFor(model => model.RememberMe, "", new { @class = "text-danger" })
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+                <a asp-action="Register">Back to Register</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+   
+    <script type="text/javascript">
+        $(".eye-password").mousedown(function (e) {
+            console.log("mousedown");
+            var input = document.getElementById("Password");
+            if (input != null)
+                input.setAttribute("type", "text");
+        });
+        $(".eye-password").mouseup(function (e) {
+            console.log("mouseup");
+            var input = document.getElementById("Password");
+            if (input != null)
+                input.setAttribute("type", "password");
+        });
+
+       
+    </script>
+}
+

@@ -1,0 +1,1022 @@
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\FishForCash.Repository.dll.config
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\FishForCash.Repository.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\FishForCash.Repository.pdb
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\netstandard.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.AppContext.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Collections.Concurrent.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Collections.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Collections.NonGeneric.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Collections.Specialized.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.ComponentModel.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.ComponentModel.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Console.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Data.Common.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.Contracts.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.Debug.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.Process.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.Tools.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.Tracing.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Drawing.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Dynamic.Runtime.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Globalization.Calendars.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Globalization.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Globalization.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.Compression.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.FileSystem.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.IsolatedStorage.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.Pipes.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Linq.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Linq.Expressions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Linq.Parallel.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Linq.Queryable.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.Http.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.NameResolution.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.NetworkInformation.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.Ping.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.Requests.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.Security.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.Sockets.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.WebSockets.Client.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Net.WebSockets.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.ObjectModel.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Reflection.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Reflection.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Reflection.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Resources.Reader.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Resources.ResourceManager.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Resources.Writer.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.Handles.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.InteropServices.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.Numerics.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Claims.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Principal.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.SecureString.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Text.Encoding.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Text.RegularExpressions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Threading.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Threading.Overlapped.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Threading.Tasks.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Threading.Thread.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Threading.ThreadPool.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Threading.Timer.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.ValueTuple.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Xml.ReaderWriter.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Xml.XDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Xml.XmlDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Xml.XmlSerializer.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Xml.XPath.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\EntityFramework.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Options.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Net.Http.Headers.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Win32.Registry.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Remotion.Linq.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Buffers.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Collections.Immutable.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.ComponentModel.Annotations.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Data.SqlClient.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Interactive.Async.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.AccessControl.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Cryptography.Xml.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Security.Principal.Windows.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Text.Encodings.Web.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\EntityFramework.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Identity.Stores.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Options.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Microsoft.Net.Http.Headers.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\Remotion.Linq.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Buffers.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Collections.Immutable.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Interactive.Async.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\bin\Debug\System.Text.Encodings.Web.xml
+F:\CoreTemplate\ModularX\ModularX.Repository\obj\Debug\FishForCash.Repository.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\ModularX\ModularX.Repository\obj\Debug\FishForCash.Repository.csproj.CopyComplete
+F:\CoreTemplate\ModularX\ModularX.Repository\obj\Debug\FishForCash.Repository.dll
+F:\CoreTemplate\ModularX\ModularX.Repository\obj\Debug\FishForCash.Repository.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll.config
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\netstandard.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.AppContext.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Concurrent.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.NonGeneric.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Specialized.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Console.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Data.Common.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Contracts.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Debug.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Process.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tools.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tracing.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Drawing.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Dynamic.Runtime.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Calendars.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.IsolatedStorage.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Pipes.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Expressions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Parallel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Queryable.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Http.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NameResolution.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NetworkInformation.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Ping.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Requests.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Security.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Sockets.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.Client.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.ObjectModel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Reader.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.ResourceManager.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Writer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Handles.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Numerics.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Claims.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.SecureString.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Text.RegularExpressions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Overlapped.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Thread.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.ThreadPool.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Timer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.ValueTuple.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.ReaderWriter.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XDocument.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlDocument.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlSerializer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Registry.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Annotations.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Data.SqlClient.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.AccessControl.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Xml.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.Windows.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Stores.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.xml
+F:\CoreTemplate\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CopyComplete
+F:\CoreTemplate\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.dll
+F:\CoreTemplate\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.pdb
+F:\CoreTemplate\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csprojAssemblyReference.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll.config
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\netstandard.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.AppContext.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Concurrent.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.NonGeneric.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Specialized.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Console.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Data.Common.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Debug.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Process.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tools.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Drawing.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Dynamic.Runtime.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Calendars.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Pipes.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Expressions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Parallel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Queryable.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Http.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NameResolution.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NetworkInformation.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Ping.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Requests.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Security.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Sockets.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.ObjectModel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Reader.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.ResourceManager.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Writer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Handles.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Numerics.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Claims.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.SecureString.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Text.RegularExpressions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Overlapped.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Thread.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.ThreadPool.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Timer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.ValueTuple.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XDocument.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlDocument.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Registry.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Data.SqlClient.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.AccessControl.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.Windows.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.xml
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CoreCompileInputs.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CopyComplete
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll.config
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\netstandard.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.AppContext.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Concurrent.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.NonGeneric.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Specialized.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Console.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Data.Common.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Debug.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Process.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tools.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Drawing.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Dynamic.Runtime.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Calendars.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Pipes.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Expressions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Parallel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Queryable.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Http.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NameResolution.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NetworkInformation.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Ping.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Requests.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Security.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Sockets.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.ObjectModel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Reader.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.ResourceManager.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Writer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Handles.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Numerics.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Claims.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.SecureString.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Text.RegularExpressions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Overlapped.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Thread.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.ThreadPool.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Timer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.ValueTuple.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XDocument.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlDocument.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Registry.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Data.SqlClient.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.AccessControl.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.Windows.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.xml
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CopyComplete
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll.config
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\netstandard.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.AppContext.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Concurrent.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.NonGeneric.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Specialized.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Console.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Data.Common.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Debug.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Process.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tools.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Drawing.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Dynamic.Runtime.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Calendars.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Globalization.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.Pipes.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Expressions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Parallel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Linq.Queryable.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Http.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NameResolution.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.NetworkInformation.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Ping.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Requests.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Security.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.Sockets.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Net.WebSockets.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.ObjectModel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Reflection.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Reader.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.ResourceManager.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Resources.Writer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Handles.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Numerics.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Claims.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.SecureString.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Text.RegularExpressions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Overlapped.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Thread.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.ThreadPool.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Threading.Timer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.ValueTuple.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XDocument.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlDocument.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Win32.Registry.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Data.SqlClient.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Memory.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Numerics.Vectors.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.AccessControl.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Security.Principal.Windows.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.Design.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Identity.Core.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\Remotion.Linq.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Buffers.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Collections.Immutable.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Interactive.Async.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Memory.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Numerics.Vectors.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\bin\Debug\System.Text.Encodings.Web.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csproj.CopyComplete
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash.Repository\obj\Debug\FishForCash.Repository.csprojAssemblyReference.cache

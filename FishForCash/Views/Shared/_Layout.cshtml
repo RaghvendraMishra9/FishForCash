@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FishForCash</title>
+
+    <environment include="Development">
+        <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="~/ImageCropContent/croppie.css" rel="stylesheet" />
+        <link href="~/css/playerdash.css" rel="stylesheet" />
+    </environment>
+    <environment include="Production">
+        <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="~/ImageCropContent/croppie.css" rel="stylesheet" />
+        <link href="~/css/playerdash.css" rel="stylesheet" />
+    </environment>
+</head>
+
+<body style="background:#f8f9fa;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Fish For Cash</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+
+
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item">
+                        <a asp-area="" asp-controller="Account" asp-action="Register" class="nav-link">Register</a>
+                    </li>
+
+
+                }
+
+                <!--for player-->
+                @if (User.Identity.IsAuthenticated)
+                {
+                    if (User.Claims.ToArray()[3].Value != "Admin")
+                    {
+                        <li class="nav-item">
+                            <a asp-area="" asp-controller="PlayerAccount" asp-action="Index" class="nav-link">My Account</a>
+                        </li>
+                    }
+                }
+                <li class="nav-item right">
+                    <a asp-area="" asp-controller="Account" asp-action="ForgotPassword" class="nav-link">Forgot Password</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            @{
+                                var sessionName = new Byte[20];
+                                bool isOK = Context.Session.TryGetValue("ProfileImage", out sessionName);
+
+                                if (isOK)
+                                {
+                                    string imreBase64Data = Convert.ToBase64String(sessionName);
+                                    string imgDataURL = string.Format("data:image/png;base64,{0}", imreBase64Data);
+                                    <img src="@imreBase64Data" style="height: 30px; width: 35px;" alt="">
+                                }
+                            }
+
+                            Welcome  @User.Identity.Name
+                        </a>
+                        <div class="dropdown-menu " style="margin-top:8px" aria-labelledby="navbarDropdownMenuLink">
+
+                            @if (User.Claims.ToArray()[3].Value != "Admin")
+                            {
+                                <a class="dropdown-item btn-warning bg-orange" asp-controller="Account" asp-action="Logout">Logout</a>
+                                <a class="dropdown-item btn-warning  bg-orange" asp-controller="PlayerAccount" asp-action="DashBoard">My DashBoard</a>
+                                <a class="dropdown-item btn-warning  bg-orange" asp-controller="PlayerAccount" asp-action="Index">Edit Account</a>
+
+                            }
+                            else
+                            {
+                                <a class="dropdown-item btn-warning bg-orange" asp-controller="Admin" asp-action="Logout">Logout</a>
+                                <a class="dropdown-item btn-warning  bg-orange" asp-controller="Admin" asp-action="Index">DashBoard</a>
+                            }
+
+                        </div>
+                    </li>
+
+                }
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+            <div class="row">
+
+                <nav class="sidebar nopadding col-3  d-none d-lg-block menu-bg ">
+                    <div class="sidebar-sticky">
+                        <!-- side menu code goes here-->
+                        @Html.Partial("_sidemenupartial",new LoginViewModel())
+
+                    </div>
+                </nav>
+                <div class="nopadding col-12 col-md-12 col-lg-9 col-xl-9">
+
+                    @RenderBody()
+
+                </div>
+            </div>
+        </div>
+    
+    
+
+            <environment include="Development">
+                <script src="~/lib/jquery/dist/jquery.js"></script>
+                <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+                <script src="~/lib/jquery-validation/dist/additional-methods.js"></script>
+                <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+                @* <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" type="text/javascript"></script>*@
+                <script src="~/js/popper.min.js" type="text/javascript"></script>
+                <script>window.jQuery || document.write('<script src="~/js/jquery-slim.min.js"><\/script>')</script>
+
+
+                <script src="~/js/bootstrap.min.js"></script>
+                <script src="~/ImageCropContent/croppie.js"></script>
+                <script src="~/js/holder.min.js" type="text/javascript"></script>
+
+            </environment>
+            <environment include="Production">
+                <script src="~/lib/jquery/dist/jquery.js"></script>
+                <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+                <script src="~/lib/jquery-validation/dist/additional-methods.js"></script>
+                <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+                @* <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" type="text/javascript"></script>*@
+                <script src="~/js/popper.min.js" type="text/javascript"></script>
+                <script>window.jQuery || document.write('<script src="~/js/jquery-slim.min.js"><\/script>')</script>
+
+
+                <script src="~/js/bootstrap.min.js"></script>
+                <script src="~/ImageCropContent/croppie.js"></script>
+                <script src="~/js/holder.min.js" type="text/javascript"></script>
+            </environment>
+            @RenderSection("Scripts", required: false)
+    </body>
+</html>

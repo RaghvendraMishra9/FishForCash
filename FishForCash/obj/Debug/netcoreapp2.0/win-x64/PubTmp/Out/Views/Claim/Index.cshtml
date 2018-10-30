@@ -1,0 +1,213 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<section class="content-wrapper main-content clear-fix">
+
+    <main role="main">
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+
+                <div class="col col-md-12 col-lg-10 text-center">
+
+
+                    <h1 class="top-title">Claim your Cash &amp; Prizes</h1>
+
+                    <div class="content-pad">
+                        <div class="top-intro">
+                            <h3>Redeem your Fish for Cash winnings for real cash or product vouchers.</h3>
+                        </div>
+                        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="Cash-tab" data-toggle="tab" href="#Cash" role="tab" aria-controls="Cash" aria-selected="true">
+                                    <h3 class="yellow ">Cash Balance</h3>
+                                    <h1 class="text-center">
+                                        @ViewBag.CashAmount <br>
+                                    </h1>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="Product-tab" data-toggle="tab" href="#Product" role="tab" aria-controls="Product" aria-selected="false">
+                                    <h3 class="yellow ">Prize Balance</h3>
+                                    <h1 class="text-center">
+                                        @ViewBag.PrizeAmount<br>
+
+                                    </h1>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                       
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="Cash" role="tabpanel" aria-labelledby="Cash-tab">
+                                <div class="row justify-content-center">
+                                    <div class="col col-sm-12 col-md-10 col-lg-8">
+
+                                        <div class="content-pad">
+                                            @if (ViewBag.Cash < 10 || ViewBag.Cash == null)
+                                            {
+                                                <h3>A minimum of <span class="yellow"> $10.00</span> is required to claim cash.</h3>
+                                                <p>
+                                                    When you win a cash prize it will be stored here in your Fish For Cash Bank Account.
+                                                </p>
+                                                <p>
+                                                    You can choose when to redeem your prize, either immediately after you have won or you can save it.
+                                                </p>
+                                                <p>
+                                                    As you win more prizes your balance will increase.
+                                                </p>
+                                                <input type="submit" name="booty" value="Not enough Cash" disabled class="btn btn-block btn-warning">
+                                            }
+                                            else
+                                            {
+                                                <p>  You can redeem your cash at any time.</p>
+                                                <p>
+                                                    If you click "Claim Cash" now a cheque for <h2> <span class="yellow larger"> @ViewBag.CashAmount </span></h2>will be sent within 30 days.
+                                                </p>
+
+                                                <a asp-action="SaveRedeem" asp-controller="Claim" asp-route-balance=@ViewBag.Cash asp-route-type="Cash" class="btn btn-block btn-lg btn-warning">Claim Cash</a>
+                                                <p>&nbsp;</p>
+
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane fade" id="Product" role="tabpanel" aria-labelledby="Product-tab">
+                                <div class="row justify-content-center">
+                                    <div class="col col-sm-12 col-md-10 col-lg-8">
+
+                                        <div class="content-pad">
+                                            @if (ViewBag.Prize < 10 || ViewBag.Prize == null)
+                                            {
+                                                <h3>A minimum of <span class="yellow"> $10.00</span> is required to claim vouchers.</h3>
+
+                                                <h4>
+                                                    Vouchers come in $10 amounts.
+                                                </h4>
+                                                <p>
+                                                    When you win a prize it will be stored here in your Fish For Cash prize account.
+                                                </p>
+                                                <p>
+                                                    You can choose when to redeem your prize, either immediately after you have won or you can save it.
+                                                </p>
+                                                <p>
+                                                    As you win more prizes your balance will increase.
+                                                </p>
+                                                <input type="submit" name="booty" value="Not enough Prizes" disabled class="btn btn-block btn-warning">
+                                            }
+                                            else
+                                            {
+
+                                                <p>  You can redeem your prizes at any time.</p>
+                                                <p>
+                                                    If you click "Claim Voucher" now you will be sent
+                                                    <h3 class="yellow nowrap"> @string.Format("{0}", (int)ViewBag.Prize / 10) x $10 voucher(s)</h3>
+                                                </p>
+                                               
+                                                <a asp-action="SaveRedeem" asp-controller="Claim" asp-route-balance=@(((int)(ViewBag.Prize / 10))*10) asp-route-type="Product" class="btn btn-block btn-lg btn-warning">Claim Voucher(s)</a>
+                                                <p>&nbsp;</p>
+                                                <p>
+                                                    This will leave <span class="yellow">@string.Format("{0:c}", ViewBag.Prize % 10)</span> remaining in your prize account.
+                                                </p>
+
+                                                <p>Your voucher/s will be sent to you within 30 days and can be redeemed at any store that stocks Butch petfood products.</p>
+
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <br />   <h4>Did you know? You can also...</h4>
+                    <div class="row justify-content-center">
+                        <div class="col col-sm-6 col-md-6">
+                            <div class="info-tile text-center">
+
+                                <h4 class="yellow">Transfer your Cash Balance</h4>
+                                <p>You can transfer <span class="yellow">@ViewBag.CashCount</span> from your cash balance into your prize account. </p>
+                                <input type="submit" class="btn btn-block  btn-warning" value="Transfer Cash to Prizes">
+
+
+                            </div>
+
+                        </div>
+                        <div class="col col-sm-6 col-md-6 ">
+
+
+                            <div class="info-tile text-center">
+
+                                <h4 class="yellow">
+                                    Donate your Winnings
+                                </h4>
+                                <p> Be a legend and select an SPCA (or other animal shelter) to donate your winnings to. </p>
+
+                                <input type="submit" class="btn btn-block  btn-warning" value="Donate my Winnings">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+
+                        <div class="col col-sm-12 ">
+
+                            <div class="info-tile text-left">
+                                <h3 class="yellow">Recent Claims</h3>
+                                <table class="table table-striped">
+
+                                    <tbody>
+                                        <tr>
+                                            <th>Claimed</th>
+                                            <th>Type</th>
+                                            <th class="text-right">Amount</th>
+
+                                            <th>Status</th>
+                                        </tr>
+                                        <tr>
+                                            <td>02 Mar 2011</td>
+                                            <td>
+                                                Donation
+                                            </td>
+                                            <td class="text-right">
+                                                $1.00
+                                            </td>
+                                            <td>Thanks!</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02 Mar 2011</td>
+                                            <td>
+                                                Donation
+                                            </td>
+                                            <td class="text-right">
+                                                $1.00
+                                            </td>
+                                            <td>Thanks!</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+
+
+

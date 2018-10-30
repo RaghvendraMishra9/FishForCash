@@ -1,0 +1,126 @@
+﻿@model FishForCash.Web.Models.BootyViewModel
+@{
+    ViewData["Title"] = "Offer Booty";
+}
+
+
+<section class="content-wrapper main-content clear-fix">
+
+    <main role="main">
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+
+                <div class="col col-md-12 col-lg-10 text-center">
+                    <h1 class="top-title">Offer your Booty</h1>
+                    <form asp-action="TradeForBooty" asp-controller="Booty" method="post">
+                    <div class="content-pad">
+                        <div class="top-intro">
+
+                            <h3>
+                                You'll trade
+                            </h3>
+                            <h1 class="yellow">
+                                <span>@Model.TradeQuantity</span> x <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", Model.BootyIcon))" class="img-fluid  rounded-circle" width="55">
+                                for
+                            </h1>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col col-sm-12 nopadding">
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col col-sm-12 nopadding">
+
+
+                                <div class="row justify-content-center">
+                                    <div class="col col-sm-6 nopadding">
+                                        <div class="form-inline">
+                                            <div class="form-row">
+                                                <div class="col-12 col-sm-3">
+
+                                                    <div class="form-group text-right">
+                                                        <h4></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <div class="form-group">
+                                                        <div class="text-center">Select amount to trade for</div>
+                                                        @Html.DropDownListFor(x => x.TradeForQuantity, new[]{
+                           new SelectListItem(){ Text = "1" , Value = "1", Selected = true },
+                           new SelectListItem(){ Text = "2", Value = "2"},
+                           new SelectListItem(){ Text = "3", Value = "3"},
+                           new SelectListItem(){ Text = "4", Value = "4"},
+                           new SelectListItem(){ Text = "5", Value = "5"},
+                           new SelectListItem(){ Text = "6", Value = "6"},
+                           new SelectListItem(){ Text = "7", Value = "7"},
+                           new SelectListItem(){ Text = "8", Value = "8"},
+                           new SelectListItem(){ Text = "9", Value = "9"},
+                           new SelectListItem(){ Text = "9", Value = "9"},
+                           new SelectListItem(){ Text = "9", Value = "9"},
+                           new SelectListItem(){ Text = "9", Value = "9"},
+                           new SelectListItem(){ Text = "10", Value = "10"}
+                           }, "", new {
+                               @class = " form-control"
+                           })
+
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Select a Booty item</h4>
+
+
+                                <div class="booty-radio">
+                                    <div class="row justify-content-center">
+                                        @if (ViewBag.Bootylist != null)
+                                        {
+
+                                            @foreach (var item in ViewBag.Bootylist)
+                                            {
+                                                <div class="form-group">
+                                                    <div class="col col-sm-2 nopadding">
+                                                        <label>
+                                                            @Html.RadioButtonFor(m => m.ForBootyIcon, $"{item.Value}", new { @class = "form-check-input" })                                                         
+
+                                                            <div class="booty-tile">
+                                                                <div class="actions-tile">
+
+                                                                    <div class="circle-inner">
+                                                                        <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.Value))" class="rounded-circle">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                </div>   <h4>Click the button to post your trade.</h4>
+
+                                @Html.HiddenFor(m => m.BootyId)
+                                @Html.HiddenFor(m => m.BootyIcon)
+                                @Html.HiddenFor(m => m.TradeQuantity)
+
+                                <input type="submit" value="Submit this Trade" class="btn btn-lg btn-warning">
+
+
+                            </div>
+                        </div>
+                    </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</section>
+

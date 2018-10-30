@@ -1,0 +1,140 @@
+﻿@model FishForCash.Domain.PrizeRedeemModel.PrizeRedeemModel
+@{
+    ViewData["Title"] = "PrintVoucher";
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Print Voucher</title>
+    <script language="JavaScript">
+<!--
+        window.focus(); function MM_openBrWindow(theURL, winName, features) { //v2.0
+            window.open(theURL, winName, features);
+        }
+        //-->
+    </script>
+    <style type="text/css">
+
+        body {
+            overflow: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+
+        .bodyblackchq {
+            font-family: courier;
+            font-size: 16px;
+            color: #333333;
+            line-height: 10pt
+        }
+
+        .bodyblacksml {
+            font-size: .8em;
+            color: #000000;
+        }
+
+        .bodyblack {
+            color: #333333;
+        }
+
+        .doc {
+            position: relative;
+        }
+
+        .voucher {
+            position: relative;
+            margin-top: 115px;
+            margin-left: 50px;
+        }
+
+        .voucherno {
+            position: absolute;
+            top: 0px;
+            left: 70px;
+        }
+
+        .name {
+            position: absolute;
+            top: 80px;
+            left: 10px;
+        }
+
+        .address1 {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+        }
+
+        .address2 {
+            position: absolute;
+            top: 120px;
+            left: 10px;
+        }
+
+        .city {
+            position: absolute;
+            top: 140px;
+            left: 10px;
+        }
+
+        .valueof {
+            position: absolute;
+            top: 40px;
+            left: 300px;
+        }
+
+        .value {
+            position: absolute;
+            top: 55px;
+            left: 300px;
+        }
+
+        .terms {
+            position: absolute;
+            top: 95px;
+            left: 300px;
+        }
+
+        .tcc {
+            position: absolute;
+            top: 115px;
+            left: 300px;
+        }
+
+        .expiry {
+            position: absolute;
+            top: 115px;
+            left: 430px;
+        }
+
+        .sig {
+            position: absolute;
+            top: 155px;
+            left: 420px;
+        }
+    </style>
+</head>
+<body onload="window.print();" bottommargin="0">
+    <div class="doc">
+        <div class="voucher">
+            <div class="voucherno"><strong>@Model.PrizeRedeemId</strong></div>
+            <div class="name"><strong>@Model.FirstName @Model.LastName</strong></div>
+            <div class="address1">
+                @Model.Address1<br>
+                @Model.Address2<br>
+                @Model.City
+            </div>
+            <div class="valueof"><font size="-2">Any Butch Products to the value of:</font></div>
+            <div class="value"> <strong>@Model.PrizeValuestr</strong> </div>
+            <div class="expiry"><strong>@Model.DatePosted</strong></div>
+            <div class="sig"><img src="~/Booty_Chest_Icons/Jeff_signature.gif" style="width:130px"></div>
+            
+
+
+        </div>
+    </div>
+</body>
+</html>
+
+

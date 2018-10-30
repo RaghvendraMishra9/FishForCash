@@ -1,0 +1,230 @@
+﻿@model FishForCash.Web.Models.TradeBootyViewModel
+@{
+    ViewData["Title"] = "Booty Market";
+    var Id = Convert.ToInt32(User.Claims.ToArray()[2].Value);
+}
+
+<section class="content-wrapper main-content clear-fix">
+
+    <main role="main">
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+
+                <div class="col col-md-12 text-center">
+
+                    <h1 class="top-title">Booty Market</h1>
+                    <div class="row">
+                        <div class="col-3 col-sm-2">
+                            <div class="nav booty-nav flex-column nav-pills vertical-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" asp-action="BootyMarket" asp-controller="Booty">All available trades</a>
+                                @if (Model.BootyIconList != null)
+                                {
+                                    @foreach (var item in Model.BootyIconList)
+                                    {
+                                        <a class="nav-link" asp-action="BootyMarket" asp-controller="Booty" asp-route-tradebooty=@item.Value aria-selected="false">
+                                            <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.Value))" class="rounded-circle">
+                                        </a>
+                                    }
+                                }
+
+                            </div>
+                        </div>
+                        <div class="col-9 col-sm-10">
+                            <div id="v-pills-tabContent">
+                                @if (Model.AllAvailableTrades != null)
+                                {
+                                    <div class="tab-pane fade show active" id="tab-all" role="tabpanel" aria-labelledby="tab-all">
+                                        <br />
+                                        <h3 class="yellow">All available trades @Model.AllAvailableTradesCount</h3>
+
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+
+                                                    @foreach (var item in Model.AllAvailableTrades)
+                                                    {
+                                                        <tr class="@(@item.Status == "Mytrade"? "bg-info" : "")">
+                                                            <td class="small" nowrap="">
+                                                                @Html.Raw(item.TradeDatestr)
+                                                            </td>
+                                                            <td></td>
+                                                            <td class="align-middle" width="15"><h4>@item.TradeQty</h4></td>
+                                                            <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeBooty))" width="35" hspace="5">&nbsp;&nbsp;</td>
+                                                            <td class="align-middle">for</td>
+                                                            <td class="align-middle"><h4>@item.TradeForQty</h4></td>
+                                                            @if (item.Status == "Mytrade")
+                                                            {
+
+                                                                <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                                <td nowrap="" class="align-middle">Your Trade</td>
+                                                                <td class="align-middle">
+                                                                    <a asp-action="DeleteTrade" asp-controller="Booty" asp-route-tradebootyid=@item.BootyTradeId asp-route-tradeqty="@item.TradeQty" asp-route-sellerplayerid=@item.PlayerId class="btn btn-danger btn-block ">Delete Trade</a>
+                                                                </td>
+                                                            }
+                                                            @if (item.Status == "CanNotTrade")
+                                                            {
+
+                                                                <td nowrap="" class="align-middle">of your</td>
+                                                                <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                                <td class="align-middle ">
+                                                                    <input type="submit" name="action" value="Can't Trade" class="btn btn-warning btn-block disabled">
+                                                                </td>
+                                                            }
+                                                            @if (item.Status == "AcceptTrade")
+                                                            {
+
+                                                                <td nowrap="" class="align-middle">of your</td>
+                                                                <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                                <td class="align-middle ">
+                                                                    <a asp-action="AcceptTrade" asp-controller="Booty" asp-route-tradebootyid=@item.BootyTradeId asp-route-sellerplayerid=@item.PlayerId class="btn btn-warning btn-block ">Accept Trade</a>
+                                                                </td>
+                                                            }
+                                                        </tr>
+
+
+                                                    }
+
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                }
+
+                                else
+                                { <div>
+                                        <div class="booty-nav-tile">
+                                            <div class="actions-tile">
+                                                <div class="circle-inner">
+                                                    <img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", Model.Icon))" width="85" hspace="5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 class="yellow">
+                                            @Model.OfferedWantedtradebootyCount trades available
+                                        </h3>
+
+                                        <h4>Offered</h4>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                @if (Model.OfferedBooty != null)
+                                                {
+                                                    @foreach (var item in Model.OfferedBooty)
+                                                    {
+                                                <tr class="@(@item.Status == "Mytrade"? "bg-info" : "")">
+                                                    <td class="small" nowrap="">
+                                                        @Html.Raw(item.TradeDatestr)
+                                                    </td>
+                                                    <td></td>
+                                                    <td class="align-middle" width="15"><h4>@item.TradeQty</h4></td>
+                                                    <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeBooty))" width="35" hspace="5">&nbsp;&nbsp;</td>
+                                                    <td class="align-middle">for</td>
+                                                    <td class="align-middle"><h4>@item.TradeForQty</h4></td>
+
+                                                    @if (item.Status == "AcceptTrade")
+                                                    {
+                                                        <td nowrap="" class="align-middle">of your</td>
+                                                        <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                        <td class="align-middle ">
+                                                            <a asp-action="AcceptTrade" asp-controller="Booty" asp-route-tradebootyid=@item.BootyTradeId asp-route-sellerplayerid=@item.PlayerId class="btn btn-warning btn-block ">Accept Trade</a>
+                                                        </td>
+                                                    }
+                                                    @if (item.Status == "CanNotTrade")
+                                                    {
+                                                        <td nowrap="" class="align-middle">of your</td>
+                                                        <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                        <td class="align-middle ">
+                                                            <input type="submit" name="action" value="Can't Trade" class="btn btn-warning btn-block disabled">
+                                                        </td>
+                                                    }
+                                                    @if (item.Status == "Mytrade")
+                                                    {
+                                                        <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                        <td nowrap="" class="align-middle">Your Trade</td>
+                                                        <td class="align-middle">
+                                                            <a asp-action="DeleteTrade" asp-controller="Booty" asp-route-tradebootyid=@item.BootyTradeId asp-route-tradeqty="@item.TradeQty" asp-route-sellerplayerid=@item.PlayerId class="btn btn-danger btn-block ">Delete Trade</a>
+                                                        </td>
+                                                    }
+                                                </tr>
+                                                    }
+                                                }
+                                                @if (Model.OfferedBooty.Count == 0)
+                                                {
+                                                    <tr><td>No trade were offered for this booty.</td></tr>
+
+                                                }
+
+                                            </tbody>
+                                        </table>
+                                        <h4>Wanted</h4>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                @if (Model.Wantedtradebooty != null)
+                                                {
+                                                    @foreach (var item in Model.Wantedtradebooty)
+                                                    {
+
+                                                <tr class="@(@item.Status == "Mytrade"? "bg-info" : "")">
+                                                    <td class="small" nowrap="">
+                                                        @Html.Raw(item.TradeDatestr)
+                                                    </td>
+                                                    <td></td>
+                                                    <td class="align-middle" width="15"><h4>@item.TradeQty</h4></td>
+                                                    <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeBooty))" width="35" hspace="5">&nbsp;&nbsp;</td>
+                                                    <td class="align-middle">for</td>
+                                                    <td class="align-middle"><h4>@item.TradeForQty</h4></td>
+
+                                                    @if (item.Status == "AcceptTrade")
+                                                    {
+                                                        <td nowrap="" class="align-middle">of your</td>
+                                                        <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                        <td class="align-middle ">
+                                                            <a asp-action="AcceptTrade" asp-controller="Booty" asp-route-tradebootyid=@item.BootyTradeId asp-route-sellerplayerid=@item.PlayerId class="btn btn-warning btn-block ">Accept Trade</a>
+                                                        </td>
+                                                    }
+                                                    @if (item.Status == "CanNotTrade")
+                                                    {
+                                                        <td nowrap="" class="align-middle">of your</td>
+                                                        <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                        <td class="align-middle ">
+                                                            <input type="submit" name="action" value="Can't Trade" class="btn btn-warning btn-block disabled">
+                                                        </td>
+                                                    }
+                                                    @if (item.Status == "Mytrade")
+                                                    {
+                                                        <td class="align-middle"><img src="@Url.Content(String.Format("~/BOOTY_ICONS/{0}.gif", item.TradeForBooty))" width="35" hspace="5"> </td>
+                                                        <td nowrap="" class="align-middle">Your Trade</td>
+                                                        <td class="align-middle">
+                                                            <a asp-action="DeleteTrade" asp-controller="Booty" asp-route-tradebootyid=@item.BootyTradeId asp-route-tradeqty="@item.TradeQty" asp-route-sellerplayerid=@item.PlayerId class="btn btn-danger btn-block ">Delete Trade</a>
+                                                        </td>
+                                                    }
+                                                </tr>
+                                                    }
+                                                }
+                                                @if (Model.Wantedtradebooty.Count == 0)
+                                                {
+                                                    <tr>
+                                                        <td>No trade were wanted for this booty.</td>
+                                                    </tr>
+
+                                                }
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+</section>

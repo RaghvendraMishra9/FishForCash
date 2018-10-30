@@ -1,0 +1,115 @@
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Web.deps.json
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.json
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.dev.json
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Web.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Web.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Business.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Domain.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Utility.dll
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Business.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Business.dll.config
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Domain.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Repository.pdb
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll.config
+F:\CoreTemplate\ModularX\ModularX\bin\Debug\netcoreapp2.0\FishForCash.Utility.pdb
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\FishForCash.Web.csprojAssemblyReference.cache
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfoInputs.cache
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfo.cs
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CopyComplete
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\FishForCash.Web.dll
+F:\CoreTemplate\ModularX\ModularX\obj\Debug\netcoreapp2.0\FishForCash.Web.pdb
+F:\CoreTemplate\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csprojAssemblyReference.cache
+F:\CoreTemplate\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CoreCompileInputs.cache
+F:\CoreTemplate\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfoInputs.cache
+F:\CoreTemplate\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfo.cs
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.deps.json
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.json
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.dev.json
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.dll
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.pdb
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.dll
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.dll
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.pdb
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll.config
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.pdb
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.pdb
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll.config
+F:\CoreTemplate\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.pdb
+F:\CoreTemplate\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CopyComplete
+F:\CoreTemplate\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.dll
+F:\CoreTemplate\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.deps.json
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.json
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.dev.json
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll.config
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll.config
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.pdb
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csprojAssemblyReference.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CoreCompileInputs.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfoInputs.cache
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfo.cs
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CopyComplete
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.dll
+D:\Fishforcash\FishForCash\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.deps.json
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.json
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.dev.json
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll.config
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll.config
+D:\Clients\Damon Alexander\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfoInputs.cache
+D:\Clients\Damon Alexander\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfo.cs
+D:\Clients\Damon Alexander\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CopyComplete
+D:\Clients\Damon Alexander\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.dll
+D:\Clients\Damon Alexander\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csprojAssemblyReference.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CoreCompileInputs.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfoInputs.cache
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.AssemblyInfo.cs
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\Microsoft.DiaSymReader.Native.x86.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.deps.json
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.json
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.runtimeconfig.dev.json
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Web.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\EntityFramework.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Business.dll.config
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Domain.dll.config
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Repository.dll.config
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\FishForCash.Utility.pdb
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\bin\Debug\netcoreapp2.0\EntityFramework.xml
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.csproj.CopyComplete
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.dll
+D:\Clients\Damon Alexander\Projects\FishForCash\FishForCash\obj\Debug\netcoreapp2.0\FishForCash.Web.pdb
